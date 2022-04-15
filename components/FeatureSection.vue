@@ -27,7 +27,7 @@
             Value
           </h3>
           <h4 class="text-lg mb-3">Treat yourself with a cake</h4>
-          <p class="text-gray-500 font-medium">
+          <p class="text-gray-500">
             We all have many found memories of birthday cakes of all sorts, made
             by grandmother and mom or created with kids together. These cakes
             always bring joy to a family’s table. We would like to bring this “
@@ -60,7 +60,7 @@
             MY MISSION
           </h3>
           <h4 class="text-lg mb-3">“lets celebrate with cake!“</h4>
-          <p class="text-gray-500 font-medium">
+          <p class="text-gray-500">
             Making each moments feeling special with cake. Celebrate your little
             and big wins and remember how beautiful to love and being loved.
             Enjoy your life and smile Cake Friends!
@@ -90,7 +90,7 @@
           </div>
           <h3 class="text-xl md:text-2xl leading-tight font-bold">Utility</h3>
           <h4 class="text-lg mb-3">"Sharing is caring"</h4>
-          <p class="text-gray-500 font-medium">
+          <p class="text-gray-500">
             Sharing a cake is a double caring. Right? With our community we
             support women-led projects and some amazing charity org. in IRL.
             Check the details in the following projects: “I carried a cake” and
