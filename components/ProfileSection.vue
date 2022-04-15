@@ -1,7 +1,7 @@
 <template>
-  <section class="">
+  <section class="py-16">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row">
-      <div class="w-full md:w-1/2 py-5">
+      <div class="w-full md:w-2/3 py-5">
         <div class="h-1 bg-indigo-500 w-48 mb-8 mx-10"></div>
         <h1 class="px-10 text-3xl font-bold">About me</h1>
         <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
@@ -20,7 +20,7 @@
         <h1 class="px-10 mt-10 text-xl">Niki S. Kunos</h1>
         <h1 class="px-10 text-base">Artist/Founder</h1>
       </div>
-      <div class="w-full md:w-1/2 flex flex-wrap">
+      <div class="w-full md:w-1/3 flex flex-wrap">
         <div class="grid grid-cols-3">
           <div class="col-span-3">
             <img
@@ -44,26 +44,6 @@
             />
           </div>
         </div>
-        <!-- <div class="w-full">
-          <img
-            src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg"
-          />
-        </div>
-        <div class="w-1/3">
-          <img
-            src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg"
-          />
-        </div>
-        <div class="w-1/3">
-          <img
-            src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg"
-          />
-        </div>
-        <div class="w-1/3">
-          <img
-            src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg"
-          />
-        </div> -->
       </div>
     </div>
   </section>

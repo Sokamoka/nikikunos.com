@@ -4,6 +4,7 @@
     <HeroSection />
     <ProfileSection />
     <FeatureSection />
+    <RoadmapTitle />
     <RoadmapItem />
     <FooterSection />
   </main>
