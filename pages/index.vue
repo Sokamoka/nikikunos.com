@@ -6,6 +6,7 @@
     <FeatureSection />
     <RoadmapTitle />
     <RoadmapItem />
+    <ContactUs />
     <FooterSection />
   </main>
 </template>
