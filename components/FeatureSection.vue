@@ -1,9 +1,10 @@
 <template>
   <section class="px-10 py-32 mx-auto">
+    <div class="h-1 bg-indigo-500 w-48 mb-8 mb-10 mx-auto"></div>
     <div class="flex flex-wrap -mx-4">
       <div class="w-full md:w-1/3 px-4">
         <div
-          class="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200"
+          class="h-full p-8 text-center hover:bg-white rounded-md shadow-xl transition duration-200"
         >
           <div
             class="inline-flex h-16 w-16 mb-7 mx-auto items-center justify-center text-white bg-indigo-500 rounded-lg"
@@ -22,27 +23,21 @@
               ></path>
             </svg>
           </div>
-          <h3
-            class="mb-3 text-xl md:text-2xl leading-tight font-bold uppercase"
-            data-config-id="auto-txt-1-2"
-          >
+          <h3 class="text-xl md:text-2xl leading-tight font-bold uppercase">
             Value
           </h3>
-          <p
-            class="text-coolGray-500 font-medium"
-            data-config-id="auto-txt-2-2"
-          >
-            Treat yourself with a cake. We all have many found memories of
-            birthday cakes of all sorts, made by grandmother and mom or created
-            with kids together. These cakes always bring joy to a family’s
-            table. We would like to bring this “ everyday is a birthday spirit”
-            vibe in web3.
+          <h4 class="text-lg mb-3">Treat yourself with a cake</h4>
+          <p class="text-gray-500 font-medium">
+            We all have many found memories of birthday cakes of all sorts, made
+            by grandmother and mom or created with kids together. These cakes
+            always bring joy to a family’s table. We would like to bring this “
+            everyday is a birthday spirit” vibe in web3.
           </p>
         </div>
       </div>
       <div class="w-full md:w-1/3 px-4">
         <div
-          class="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200"
+          class="h-full p-8 text-center hover:bg-white rounded-md shadow-xl transition duration-200"
         >
           <div
             class="inline-flex h-16 w-16 mb-7 mx-auto items-center justify-center text-white bg-indigo-500 rounded-lg"
@@ -61,16 +56,11 @@
               ></path>
             </svg>
           </div>
-          <h3
-            class="mb-3 text-xl md:text-2xl leading-tight font-bold"
-            data-config-id="auto-txt-3-2"
-          >
-            MY MISSION “lets celebrate with cake! “
+          <h3 class="text-xl md:text-2xl leading-tight font-bold">
+            MY MISSION
           </h3>
-          <p
-            class="text-coolGray-500 font-medium"
-            data-config-id="auto-txt-4-2"
-          >
+          <h4 class="text-lg mb-3">“lets celebrate with cake!“</h4>
+          <p class="text-gray-500 font-medium">
             Making each moments feeling special with cake. Celebrate your little
             and big wins and remember how beautiful to love and being loved.
             Enjoy your life and smile Cake Friends!
@@ -79,7 +69,7 @@
       </div>
       <div class="w-full md:w-1/3 px-4">
         <div
-          class="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200"
+          class="h-full p-8 text-center hover:bg-white rounded-md shadow-xl transition duration-200"
         >
           <div
             class="inline-flex h-16 w-16 mb-7 mx-auto items-center justify-center text-white bg-indigo-500 rounded-lg"
@@ -98,20 +88,13 @@
               ></path>
             </svg>
           </div>
-          <h3
-            class="mb-3 text-xl md:text-2xl leading-tight font-bold"
-            data-config-id="auto-txt-5-2"
-          >
-            Utility
-          </h3>
-          <p
-            class="text-coolGray-500 font-medium"
-            data-config-id="auto-txt-6-2"
-          >
-            "Sharing is caring" so, sharing a cake is a double caring. Right?
-            With our community we support women-led projects and some amazing
-            charity org. in IRL. Check the details in the following projects: “I
-            carried a cake” and “Make a wish”
+          <h3 class="text-xl md:text-2xl leading-tight font-bold">Utility</h3>
+          <h4 class="text-lg mb-3">"Sharing is caring"</h4>
+          <p class="text-gray-500 font-medium">
+            Sharing a cake is a double caring. Right? With our community we
+            support women-led projects and some amazing charity org. in IRL.
+            Check the details in the following projects: “I carried a cake” and
+            “Make a wish”
           </p>
         </div>
       </div>

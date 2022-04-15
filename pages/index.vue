@@ -1,9 +1,11 @@
 <template>
-  <main class="max-w-7xl mx-auto">
+  <main class="">
     <NavHeader />
     <HeroSection />
     <ProfileSection />
     <FeatureSection />
+    <RoadmapItem />
+    <FooterSection />
   </main>
 </template>
 
