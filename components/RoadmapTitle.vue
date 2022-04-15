@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-indigo-600">
+  <section class="bg-indigo-600 bg-roadmap-pattern">
     <div class="max-w-7xl mx-auto py-16 px-10 flex flex-col items-center">
       <div class="h-1 bg-indigo-300 w-48 mb-8 mx-10"></div>
       <div
