@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="bg-[url('../img/niki-waves.svg')] bg-no-repeat bg-cover bg-bottom">
     <div class="max-w-7xl mx-auto py-32 px-10 flex flex-col items-center">
       <div
         class="text-4xl text-center whitespace-pre-line tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
@@ -7,7 +7,7 @@
         Welcome to the
         <span class="text-indigo-500">CAKE CLUB NFT</span>
       </div>
-      <div class="text-3xl font-bold p-3 text-center">
+      <div class="text-xl sm:text-2xl md:text-3xl font-bold p-3 text-center">
         Can you imagine any celebration without a cake?
       </div>
       <div
