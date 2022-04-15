@@ -1,9 +1,37 @@
 <template>
-  <nav class="px-10 py-5 font-bold text-xl">NikiKunos.com</nav>
+  <nav
+    :class="[
+      'fixed px-10 py-5 font-bold text-xl w-full transition-all duration-500 ease-out',
+      {
+        'bg-white/90 backdrop-blur-sm shadow-sm': isOnScroll,
+      },
+    ]"
+  >
+    NikiKunos.com
+  </nav>
 </template>
 
 <script>
 export default {
   name: 'NavHeader',
+
+  data() {
+    return {
+      isOnScroll: false,
+    }
+  },
+
+  beforeMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
+
+  methods: {
+    handleScroll() {
+      this.isOnScroll = window.scrollY > 0
+    },
+  },
 }
 </script>

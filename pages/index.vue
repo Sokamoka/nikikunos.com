@@ -6,6 +6,7 @@
     <FeatureSection />
     <RoadmapTitle />
     <RoadmapItem />
+    <UpcomingSection />
     <ContactUs />
     <FooterSection />
   </main>
