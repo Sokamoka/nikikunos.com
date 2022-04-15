@@ -9,7 +9,7 @@
       </div>
       <div class="text-3xl font-bold p-3 text-white text-center">Pre-mint: Founding Cake Lovers</div>
       <div
-        class="mt-2 text-base text-indigo-300 sm:mt-5 sm:text-lg sm:max-w-3xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-center"
+        class="mt-2 text-base text-indigo-200 sm:mt-5 sm:text-lg sm:max-w-3xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-center"
       >
         In this phase i am creating custom-made cakes for happy NFT holders to
         celebrate their favourite NFTs. The 1st minting start with the limited
