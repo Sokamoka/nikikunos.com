@@ -6,8 +6,8 @@
           <div class="h-1 bg-indigo-500 w-48 mb-8 mx-10"></div>
           <h1 class="px-10 text-3xl font-bold">“Lets celebrate with cake”</h1>
           <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
-            “Lets celebrate with cake”( 1/1) : includes only custom made cakes
-            from any “ Cake Club Collection. (only 150 pieces) Sending a print
+            “Lets celebrate with cake” (1/1): includes only custom made cakes
+            from any “Cake Club Collection". (only 150 pieces) Sending a print
             to the owners.
           </p>
         </div>
@@ -35,7 +35,7 @@
         </div>
       </div>
     </section>
-    <section class="py-16">
+    <section class="pt-16">
       <div class="flex flex-col md:flex-row-reverse max-w-7xl mx-auto">
         <div class="w-full md:w-1/2 mb-5">
           <div class="h-1 bg-indigo-500 w-48 mb-8 mx-10"></div>
@@ -44,14 +44,6 @@
             (1000 generative pieces) ( 200 good vibes quotes+ wishes ( like
             birthday wishes…etc) ) Create your own cake collection and feed your
             soul with cakes eveyday, you can give the cake as a special gift.
-          </p>
-          <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
-            Early ownership gives you exclusive access to the Founding Members
-            Club. Our founding members enjoy benefits like airdrops, pre-mint
-            tickets to our limited PFPs, and right to vote supporting upcoming
-            women-led projects of 10% of the profits from the following " I
-            carried a cake” PFP collection. Next minting when “say it with cake
-            50% sold.
           </p>
         </div>
         <div class="w-full md:w-1/2">
@@ -90,6 +82,20 @@
         </div>
       </div>
     </section>
+
+    <section class="bg-indigo-50">
+      <div class="max-w-7xl mx-auto mt-5 text-center flex flex-col items-center pt-8">
+        <p class="pb-10 px-10 text-base text-indigo-400 sm:text-base md:text-lg md:w-4/5">
+          Early ownership gives you exclusive access to the Founding Members
+          Club. Our founding members enjoy benefits like airdrops, pre-mint
+          tickets to our limited PFPs, and right to vote supporting upcoming
+          women-led projects of 10% of the profits from the following <strong>"I
+          carried a cake”</strong> PFP collection. <br />Next minting when “say it with cake
+          50% sold.
+        </p>
+      </div>
+    </section>
+
     <section class="py-16">
       <div class="flex flex-col md:flex-row max-w-7xl mx-auto">
         <div class="w-full md:w-1/2 mb-5">
