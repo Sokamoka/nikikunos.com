@@ -13,8 +13,8 @@
       >
         In this phase i am creating custom-made cakes for happy NFT holders to
         celebrate their favourite NFTs. The 1st minting start with the limited
-        edition "Lets celebrate with cakes 1/1 "( 150 pieces) and " Say with
-        cakes"( 1000 pieces) collection launches.
+        edition "Lets celebrate with cakes 1/1" (150 pieces) and "Say with
+        cakes" (1000 pieces) collection launches.
       </div>
     </div>
   </section>

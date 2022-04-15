@@ -7,9 +7,9 @@
         <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
           My name is Niki S. Kunos and I am a cake decorator in IRL. In the last
           10 years my cakes proud to be featured on <b>Huffington Post Wedding,
-          Ruffled Blog,The Modern Wedding Magazine (20th-anniversary edition)
-          Insyle Magazine, Glamour Mag and I was finalist “Decorator of the
-          Year!”</b> on Australian Cake Decorating Network (2014) but most
+          Ruffled Blog, The Modern Wedding Magazine (20th-anniversary edition),
+          Insyle Magazine, Glamour Mag</b> and I was finalist <b>“Decorator of the
+          Year!”</b> on <b>Australian Cake Decorating Network</b> (2014) but most
           importantly, I have been able to feed over 10,000 happy people with
           sweet bits.
         </p>
@@ -18,9 +18,9 @@
           my other passion, illustration.
         </p>
         <h1 class="px-10 mt-10 text-base font-bold">Niki S. Kunos</h1>
-        <h1 class="px-10 text-base">Artist/Founder</h1>
+        <h1 class="px-10 text-sm">Artist/Founder</h1>
       </div>
-      <div class="w-full md:w-1/3">
+      <div class="w-full md:w-1/3 py-5">
         <div class="grid grid-cols-3">
           <div class="col-span-3">
             <img

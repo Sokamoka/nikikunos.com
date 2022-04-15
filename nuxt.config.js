@@ -34,6 +34,7 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     '@nuxt/postcss8',
+    '@nuxtjs/google-fonts',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -46,6 +47,12 @@ export default {
         tailwindcss: {},
         autoprefixer: {},
       },
+    },
+  },
+
+  googleFonts: {
+    families: {
+      Inter: [400, 500, 700, 800],
     },
   },
 }
