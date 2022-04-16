@@ -23,7 +23,7 @@
       <div class="w-full md:w-1/3 py-5">
         <div class="grid grid-cols-3">
           <div class="col-span-3">
-            <nuxt-img src="images/niki-kunos.jpg" loading="lazy" class="object-cover aspect-video" />
+            <nuxt-img provider="netlify" src="images/niki-kunos.jpg" class="object-cover aspect-video" />
           </div>
           <div class="">
             <img
