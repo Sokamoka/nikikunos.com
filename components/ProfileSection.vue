@@ -23,10 +23,7 @@
       <div class="w-full md:w-1/3 py-5">
         <div class="grid grid-cols-3">
           <div class="col-span-3">
-            <img
-              src="https://scontent.fbud7-3.fna.fbcdn.net/v/t31.18172-8/1926191_10152658947375904_3541205336929530431_o.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=4vkZwlETCGEAX-G8JDY&_nc_ht=scontent.fbud7-3.fna&oh=00_AT-0jJc1XC0YfhqmvsvCY_2H7U40Y8VnAiSEsgdBNv0TFw&oe=6280589B"
-              class="object-cover aspect-video"
-            />
+            <nuxt-img src="images/niki-kunos.jpg" loading="lazy" class="object-cover aspect-video" />
           </div>
           <div class="">
             <img

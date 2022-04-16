@@ -35,10 +35,11 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxt/postcss8',
     '@nuxtjs/google-fonts',
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['@nuxt/image'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
@@ -54,5 +55,9 @@ export default {
     families: {
       Inter: [400, 500, 700, 800],
     },
+  },
+
+  image: {
+    provider: 'netlify',
   },
 }
