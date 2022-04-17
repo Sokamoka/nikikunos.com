@@ -19,9 +19,7 @@
       </div>
       <div class="grid grid-cols-3 max-w-7xl mx-auto">
         <div>
-          <img
-            src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large"
-          />
+          <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
         </div>
         <div>
           <img
@@ -119,9 +117,7 @@
         <div class="w-full md:w-1/2">
           <div class="grid grid-cols-3 grid-rows-2">
             <div>
-              <img
-                src="https://pbs.twimg.com/media/FPbkrLWWYAMrPr6?format=jpg&name=4096x4096"
-              />
+              <nuxt-img provider="cloudinary" src="/carried/Lilycarried_udfq4v.jpg" loading="lazy" />
             </div>
             <div>
               <img

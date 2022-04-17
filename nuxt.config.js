@@ -32,10 +32,11 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
+    '@nuxt/image',
     '@nuxt/postcss8',
     '@nuxtjs/google-fonts',
-    '@nuxt/image',
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/composition-api/module',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

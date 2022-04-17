@@ -22,6 +22,7 @@
       </div>
       <div class="w-full md:w-1/3 py-5">
         <div class="grid grid-cols-3">
+          <GalleryWrapper></GalleryWrapper>
           <div class="col-span-3">
             <nuxt-img provider="cloudinary" src="/cld-sample.jpg" loading="lazy" class="object-cover aspect-video" />
           </div>
@@ -45,7 +46,9 @@
 </template>
 
 <script>
+import GalleryWrapper from "./gallery/GalleryWrapper.vue";
 export default {
-  name: 'ProfileSection',
+    name: "ProfileSection",
+    components: { GalleryWrapper }
 }
 </script>
