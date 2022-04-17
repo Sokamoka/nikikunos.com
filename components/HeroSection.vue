@@ -5,7 +5,7 @@
         class="text-4xl text-center whitespace-pre-line tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
       >
         Welcome to the
-        <span class="text-indigo-500">CAKE CLUB NFT</span>
+        <span class="text-rose-500">CAKE CLUB NFT</span>
       </div>
       <div class="text-xl sm:text-2xl md:text-3xl font-bold p-3 text-center">
         Can you imagine any celebration without a cake?
@@ -22,7 +22,7 @@
         <div class="rounded-md shadow">
           <a
             href="https://opensea.io/collection/lets-celebrate-with-cake"
-            class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+            class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 md:py-4 md:text-lg md:px-10"
             target="_blank"
           >
             Taste your Cake

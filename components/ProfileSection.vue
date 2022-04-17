@@ -2,7 +2,7 @@
   <section class="py-16">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row">
       <div class="w-full md:w-2/3 py-5">
-        <div class="h-1 bg-indigo-500 w-48 mb-8 mx-10"></div>
+        <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
         <h1 class="px-10 text-3xl font-bold">About me</h1>
         <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
           My name is Niki S. Kunos and I am a cake decorator in IRL. In the last

@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto">
       <div class="lg:text-center mx-10">
         <h2
-          class="text-base text-indigo-600 font-semibold tracking-wide uppercase"
+          class="text-base text-rose-600 font-semibold tracking-wide uppercase"
         >
           What's next
         </h2>
@@ -25,7 +25,7 @@
           <div class="relative">
             <dt>
               <div
-                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-rose-500 text-white"
               >
                 icon
               </div>
@@ -45,7 +45,7 @@
           <div class="relative">
             <dt>
               <div
-                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+                class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-rose-500 text-white"
               >
                 icon
               </div>

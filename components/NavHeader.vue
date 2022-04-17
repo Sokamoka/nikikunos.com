@@ -3,7 +3,7 @@
     :class="[
       'fixed px-10 py-5 font-bold text-xl w-full transition-all duration-500 ease-out z-50',
       {
-        'bg-white/90 backdrop-blur-sm shadow-md': isOnScroll,
+        'bg-white/80 backdrop-blur-md shadow-md': isOnScroll,
       },
     ]"
   >

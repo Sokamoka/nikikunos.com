@@ -1,13 +1,13 @@
 <template>
   <section class="px-10 py-16 mx-auto">
-    <div class="h-1 bg-indigo-500 w-48 mb-8 mb-10 mx-auto"></div>
+    <div class="h-1 bg-rose-500 w-48 mb-8 mb-10 mx-auto"></div>
     <div class="flex flex-wrap -mx-4">
       <div class="w-full md:w-1/3 px-4">
         <div
           class="h-full p-8 text-center hover:bg-white rounded-md shadow-xl transition duration-200"
         >
           <div
-            class="inline-flex h-16 w-16 mb-7 mx-auto items-center justify-center text-white bg-indigo-500 rounded-lg"
+            class="inline-flex h-16 w-16 mb-7 mx-auto items-center justify-center text-white bg-rose-500 rounded-lg"
           >
             <svg
               width="24"
@@ -40,7 +40,7 @@
           class="h-full p-8 text-center hover:bg-white rounded-md shadow-xl transition duration-200"
         >
           <div
-            class="inline-flex h-16 w-16 mb-7 mx-auto items-center justify-center text-white bg-indigo-500 rounded-lg"
+            class="inline-flex h-16 w-16 mb-7 mx-auto items-center justify-center text-white bg-rose-500 rounded-lg"
           >
             <svg
               width="22"
@@ -72,7 +72,7 @@
           class="h-full p-8 text-center hover:bg-white rounded-md shadow-xl transition duration-200"
         >
           <div
-            class="inline-flex h-16 w-16 mb-7 mx-auto items-center justify-center text-white bg-indigo-500 rounded-lg"
+            class="inline-flex h-16 w-16 mb-7 mx-auto items-center justify-center text-white bg-rose-500 rounded-lg"
           >
             <svg
               width="22"
