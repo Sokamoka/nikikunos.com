@@ -58,6 +58,8 @@ export default {
   },
 
   image: {
-    provider: 'netlify',
+    cloudinary: {
+      baseURL: process.env.CLOUDINARY_BASE_URL,
+    },
   },
 }

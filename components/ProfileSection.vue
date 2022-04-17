@@ -23,12 +23,10 @@
       <div class="w-full md:w-1/3 py-5">
         <div class="grid grid-cols-3">
           <div class="col-span-3">
-            <nuxt-img provider="netlify" src="images/niki-kunos.jpg?nf_resize=fit&w=300&h=400" class="object-cover aspect-video" />
+            <nuxt-img provider="cloudinary" src="/cld-sample.jpg" loading="lazy" class="object-cover aspect-video" />
           </div>
           <div class="">
-            <img
-              src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg"
-            />
+            <nuxt-img provider="cloudinary" src="/sample.jpg" fit="fill" :modifiers="{ ar: '1:1' }" width="200" height="200" />
           </div>
           <div class="">
             <img
