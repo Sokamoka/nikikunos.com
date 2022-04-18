@@ -5,19 +5,17 @@
         <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
         <h1 class="px-10 text-3xl font-bold">About me</h1>
         <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
-          My name is Niki S. Kunos and I am a cake decorator in IRL. In the last
-          10 years my cakes proud to be featured on
+          My name is Niki S. Kunos and I am a cake decorator in IRL. In the last 10 years my cakes proud to be featured
+          on
           <b
-            >Huffington Post Wedding, Ruffled Blog, The Modern Wedding Magazine
-            (20th-anniversary edition), Insyle Magazine, Glamour Mag</b
+            >Huffington Post Wedding, Ruffled Blog, The Modern Wedding Magazine (20th-anniversary edition), Insyle
+            Magazine, Glamour Mag</b
           >
-          and I was finalist <b>“Decorator of the Year!”</b> on
-          <b>Australian Cake Decorating Network</b> (2014) but most importantly,
-          I have been able to feed over 10,000 happy people with sweet bits.
+          and I was finalist <b>“Decorator of the Year!”</b> on <b>Australian Cake Decorating Network</b> (2014) but
+          most importantly, I have been able to feed over 10,000 happy people with sweet bits.
         </p>
         <p class="px-10 mt-3 text-base text-gray-500 sm:text-lg md:text-lg">
-          Here in WEB3, it is amazing that i could combine cake decorating with
-          my other passion, illustration.
+          Here in WEB3, it is amazing that i could combine cake decorating with my other passion, illustration.
         </p>
         <h1 class="px-10 mt-10 text-base font-bold">Niki S. Kunos</h1>
         <h1 class="px-10 text-sm">Artist/Founder</h1>
@@ -28,17 +26,9 @@
             class="col-span-3 gallery-thumb"
             src="https://res.cloudinary.com/dmnwv4n97/image/upload/cld-sample.jpg"
           >
-            <nuxt-img
-              provider="cloudinary"
-              src="/cld-sample.jpg"
-              loading="lazy"
-              class="object-cover aspect-video"
-            />
+            <nuxt-img provider="cloudinary" src="/cld-sample.jpg" loading="lazy" class="object-cover aspect-video" />
           </GalleryItem>
-          <GalleryItem
-            class="gallery-thumb"
-            src="https://res.cloudinary.com/dmnwv4n97/image/upload/sample.jpg"
-          >
+          <GalleryItem class="gallery-thumb" src="https://res.cloudinary.com/dmnwv4n97/image/upload/sample.jpg">
             <nuxt-img
               provider="cloudinary"
               src="/sample.jpg"
@@ -48,21 +38,11 @@
               height="200"
             />
           </GalleryItem>
-          <GalleryItem
-            class="gallery-thumb"
-            src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg"
-          >
-            <img
-              src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg"
-            />
+          <GalleryItem class="gallery-thumb" src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg">
+            <img src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg" />
           </GalleryItem>
-          <GalleryItem
-            class="gallery-thumb"
-            src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg"
-          >
-            <img
-              src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg"
-            />
+          <GalleryItem class="gallery-thumb" src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg">
+            <img src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg" />
           </GalleryItem>
         </GalleryWrapper>
       </div>

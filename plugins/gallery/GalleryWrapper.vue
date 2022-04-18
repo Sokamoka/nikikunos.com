@@ -1,5 +1,5 @@
 <script setup>
-import { ref, provide, computed } from '@nuxtjs/composition-api'
+import { ref, provide, computed, watch } from '@nuxtjs/composition-api'
 import { GalleryContext } from './internal'
 
 const items = ref([])
@@ -31,6 +31,14 @@ const api = {
   },
 }
 provide(GalleryContext, api)
+
+watch(isOpen, (value) => {
+  if (value) {
+    document.body.classList.add('overflow-hidden')
+  } else {
+    document.body.classList.remove('overflow-hidden')
+  }
+})
 </script>
 
 <template>
@@ -39,7 +47,7 @@ provide(GalleryContext, api)
     <transition name="fade">
       <div
         v-if="isOpen"
-        class="fixed flex items-center justify-center bg-white/70 backdrop-blur-sm inset-0 z-50"
+        class="fixed flex items-center justify-center bg-white/70 backdrop-blur-sm inset-0 z-50 overscroll-auto"
       >
         <div
           v-if="currentIndex > 0"
@@ -55,7 +63,10 @@ provide(GalleryContext, api)
             class="block max-w-[90%] max-h-[90%] overscroll-contain shadow-md"
           />
         </transition>
-        <div class="absolute top-2 right-4 rounded-full bg-white hover:bg-rose-600 hover:text-white shadow-md p-2 cursor-pointer" @click="api.close()">
+        <div
+          class="absolute top-2 right-4 rounded-full bg-white hover:bg-rose-600 hover:text-white shadow-md p-2 cursor-pointer"
+          @click="api.close()"
+        >
           <outline-x-icon class="w-5 h-5" />
         </div>
         <div

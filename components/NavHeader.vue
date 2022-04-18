@@ -7,9 +7,7 @@
       },
     ]"
   >
-    <div class="max-w-7xl mx-auto py-5 px-10 font-bold text-xl w-full">
-      NikiKunos.com
-    </div>
+    <div class="max-w-7xl mx-auto py-5 px-10 font-bold text-xl w-full">NikiKunos.com</div>
   </nav>
 </template>
 

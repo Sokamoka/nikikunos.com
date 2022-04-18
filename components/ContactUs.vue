@@ -8,8 +8,7 @@
             Want to know more or do you still have questions you need answered?
           </div>
           <div class="text-xl text-gray-500 mb-5 mt-3">
-            Please contact us and we will do our best to respond within 48
-            hours.
+            Please contact us and we will do our best to respond within 48 hours.
           </div>
         </div>
         <div class="w-full md:w-1/4">

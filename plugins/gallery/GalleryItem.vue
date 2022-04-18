@@ -20,7 +20,7 @@ const id = useId()
 onMounted(() => api.registerImage({ id, src: props.src }))
 
 const onClick = () => {
-   api.open(id)
+  api.open(id)
 }
 </script>
 

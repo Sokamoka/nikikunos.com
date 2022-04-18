@@ -13,10 +13,9 @@
       <div
         class="mt-2 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-3xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-center"
       >
-        If not, you're in the best place right now. Our community is building by
-        cake lovers from all over the world and we all celebrate the happiness
-        of sharing the cakes with friends and family. Cakes and sprinkles make
-        the world a colorful and more sweeter place.
+        If not, you're in the best place right now. Our community is building by cake lovers from all over the world and
+        we all celebrate the happiness of sharing the cakes with friends and family. Cakes and sprinkles make the world
+        a colorful and more sweeter place.
       </div>
       <div class="mt-8">
         <div class="rounded-md shadow">
