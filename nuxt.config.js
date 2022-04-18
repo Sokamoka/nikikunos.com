@@ -36,6 +36,7 @@ export default {
     '@nuxt/postcss8',
     '@nuxtjs/google-fonts',
     '@nuxtjs/eslint-module',
+    '@nuxt-hero-icons/outline/nuxt',
     '@nuxtjs/composition-api/module',
   ],
 

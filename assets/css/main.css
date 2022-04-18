@@ -11,3 +11,12 @@
     @apply text-rose-600;
   }
 }
+
+@layer components {
+  .gallery-thumb {
+    @apply bg-rose-500 cursor-pointer;
+  }
+  .gallery-thumb img {
+    @apply hover:opacity-70 transition-opacity duration-300;
+  }
+}

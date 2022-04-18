@@ -23,10 +23,9 @@
         <h1 class="px-10 text-sm">Artist/Founder</h1>
       </div>
       <div class="w-full md:w-1/3 py-5">
-         <GalleryWrapper>
+        <GalleryWrapper class="grid grid-cols-3">
           <GalleryItem
-            tag="a"
-            href="#"
+            class="col-span-3 gallery-thumb"
             src="https://res.cloudinary.com/dmnwv4n97/image/upload/cld-sample.jpg"
           >
             <nuxt-img
@@ -36,18 +35,10 @@
               class="object-cover aspect-video"
             />
           </GalleryItem>
-        </GalleryWrapper>
-
-        <div class="grid grid-cols-3">
-          <div class="col-span-3">
-            <nuxt-img
-              provider="cloudinary"
-              src="/cld-sample.jpg"
-              loading="lazy"
-              class="object-cover aspect-video"
-            />
-          </div>
-          <div class="">
+          <GalleryItem
+            class="gallery-thumb"
+            src="https://res.cloudinary.com/dmnwv4n97/image/upload/sample.jpg"
+          >
             <nuxt-img
               provider="cloudinary"
               src="/sample.jpg"
@@ -56,18 +47,24 @@
               width="200"
               height="200"
             />
-          </div>
-          <div class="">
+          </GalleryItem>
+          <GalleryItem
+            class="gallery-thumb"
+            src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg"
+          >
             <img
               src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg"
             />
-          </div>
-          <div class="">
+          </GalleryItem>
+          <GalleryItem
+            class="gallery-thumb"
+            src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg"
+          >
             <img
               src="https://shuffle.dev/pstls-assets/images/headers/header-1-woman.jpg"
             />
-          </div>
-        </div>
+          </GalleryItem>
+        </GalleryWrapper>
       </div>
     </div>
   </section>
