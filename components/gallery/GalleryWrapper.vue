@@ -1,28 +1,42 @@
 <script setup>
-import { ref, onMounted, provide } from '@nuxtjs/composition-api'
+import { ref, provide, computed } from '@nuxtjs/composition-api'
+import { GalleryContext } from './internal'
 
-const GalleryContext = Symbol('GalleryContext')
-// reactive state
-const count = ref(0)
-const items = ref([]);
+const items = ref([])
+const isOpen = ref(false)
+const currentIndex = ref(0)
 
-// functions that mutate state and trigger updates
-function increment() {
-  count.value++
-}
-
-// lifecycle hooks
-onMounted(() => {
-  console.log(`The initial count is ${count.value}.`)
-})
+const currentItem = computed(() => items.value[currentIndex.value])
 
 const api = {
   items,
-  add: (item) => items.value.push(item)
+  isOpen,
+  registerImage: (item) => items.value.push(item),
+  open(id) {
+    currentIndex.value = items.value.findIndex(item => item.id === id) || 0;
+    isOpen.value = true
+  },
+  close() {
+    isOpen.value = false
+  },
 }
 provide(GalleryContext, api)
 </script>
 
 <template>
-  <button @click="increment">Count is: {{ count }}</button>
+  <div>
+    <slot :items="items" />
+    <transition name="fade">
+      <div
+        v-if="isOpen"
+        class="fixed flex bg-white/70 backdrop-blur-sm inset-0 z-50 p-10"
+        @click="api.close()"
+      >
+        <img
+          :src="currentItem.src"
+          class="w-full h-auto"
+        />
+      </div>
+    </transition>
+  </div>
 </template>
