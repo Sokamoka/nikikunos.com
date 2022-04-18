@@ -10,21 +10,50 @@
             pieces) Sending a print to the owners.
           </p>
         </div>
-        <div class="w-full md:w-1/2">
-          <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
-        </div>
+        <GalleryWrapper class="w-full md:w-1/2">
+          <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large">
+            <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
+          </GalleryItem>
+        </GalleryWrapper>
       </div>
-      <div class="grid grid-cols-3 max-w-7xl mx-auto">
-        <div>
+      <GalleryWrapper class="grid grid-cols-2 md:grid-cols-3 max-w-7xl mx-auto">
+        <GalleryItem
+          class="gallery-thumb"
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+        >
           <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
-        </div>
-        <div>
+        </GalleryItem>
+        <GalleryItem
+          class="gallery-thumb"
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+        >
           <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
-        </div>
-        <div>
+        </GalleryItem>
+        <GalleryItem
+          class="gallery-thumb"
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+        >
           <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
-        </div>
-      </div>
+        </GalleryItem>
+        <GalleryItem
+          class="gallery-thumb"
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+        >
+          <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
+        </GalleryItem>
+        <GalleryItem
+          class="gallery-thumb"
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+        >
+          <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
+        </GalleryItem>
+        <GalleryItem
+          class="gallery-thumb"
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+        >
+          <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
+        </GalleryItem>
+      </GalleryWrapper>
     </section>
     <section class="pt-16">
       <div class="flex flex-col md:flex-row-reverse max-w-7xl mx-auto">
@@ -37,26 +66,26 @@
           </p>
         </div>
         <div class="w-full md:w-1/2">
-          <div class="grid grid-cols-3 grid-rows-2">
-            <div>
+          <GalleryWrapper class="grid grid-cols-3 grid-rows-2">
+            <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
               <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />
-            </div>
-            <div>
+            </GalleryItem>
+            <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
               <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />
-            </div>
-            <div>
+            </GalleryItem>
+            <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
               <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />
-            </div>
-            <div>
+            </GalleryItem>
+            <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
               <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />
-            </div>
-            <div>
+            </GalleryItem>
+            <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
               <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />
-            </div>
-            <div>
+            </GalleryItem>
+            <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
               <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />
-            </div>
-          </div>
+            </GalleryItem>
+          </GalleryWrapper>
         </div>
       </div>
     </section>

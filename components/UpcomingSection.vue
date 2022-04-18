@@ -17,7 +17,7 @@
           <div class="relative">
             <dt>
               <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
-                icon
+                <outline-beaker-icon class="w-7 h-7" />
               </div>
               <p class="ml-16 text-lg leading-6 font-medium text-gray-900">for cakCravingses</p>
             </dt>
@@ -31,7 +31,7 @@
           <div class="relative">
             <dt>
               <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
-                icon
+                <outline-gift-icon class="w-7 h-7" />
               </div>
               <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Heritage/ desserts</p>
             </dt>
