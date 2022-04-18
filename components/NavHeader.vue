@@ -1,13 +1,15 @@
 <template>
   <nav
     :class="[
-      'fixed px-10 py-5 font-bold text-xl w-full transition-all duration-500 ease-out z-50',
+      'fixed w-full px-10 transition-all duration-500 ease-out z-50',
       {
         'bg-white/80 backdrop-blur-md shadow-md': isOnScroll,
       },
     ]"
   >
-    NikiKunos.com
+    <div class="max-w-7xl mx-auto py-5 px-10 font-bold text-xl w-full">
+      NikiKunos.com
+    </div>
   </nav>
 </template>
 
