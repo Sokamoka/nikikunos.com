@@ -1,22 +1,23 @@
 <script setup>
 import { defineProps, inject, onMounted } from '@nuxtjs/composition-api'
-import { GalleryContext } from './internal'
+import { GalleryContext, useId } from './internal'
 
 const props = defineProps({
   tag: {
     type: [String, Object],
     default: 'div',
   },
-  imageSrc: {
+
+  src: {
     type: String,
     default: '',
   },
 })
 const api = inject(GalleryContext, null)
 
-const id = 'first'
+const id = useId()
 
-onMounted(() => api.registerImage({ id, src: props.imageSrc }))
+onMounted(() => api.registerImage({ id, src: props.src }))
 
 const onClick = () => {
    api.open(id)
@@ -24,7 +25,7 @@ const onClick = () => {
 </script>
 
 <template>
-  <component :is="props.tag" v-bind="$attrs" @click="onClick">
+  <component :is="props.tag" v-bind="$attrs" @click.prevent="onClick">
     <slot />
   </component>
 </template>

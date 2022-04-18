@@ -23,9 +23,11 @@
         <h1 class="px-10 text-sm">Artist/Founder</h1>
       </div>
       <div class="w-full md:w-1/3 py-5">
-        <GalleryWrapper>
+         <GalleryWrapper>
           <GalleryItem
-            image-src="https://res.cloudinary.com/dmnwv4n97/image/upload/f_auto,q_auto/v1650186229/cld-sample.jpg"
+            tag="a"
+            href="#"
+            src="https://res.cloudinary.com/dmnwv4n97/image/upload/cld-sample.jpg"
           >
             <nuxt-img
               provider="cloudinary"
@@ -35,6 +37,7 @@
             />
           </GalleryItem>
         </GalleryWrapper>
+
         <div class="grid grid-cols-3">
           <div class="col-span-3">
             <nuxt-img
@@ -71,9 +74,7 @@
 </template>
 
 <script>
-import GalleryWrapper from './gallery/GalleryWrapper.vue'
 export default {
   name: 'ProfileSection',
-  components: { GalleryWrapper },
 }
 </script>
