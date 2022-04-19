@@ -84,7 +84,7 @@
           </p>
         </div>
         <div class="w-full md:w-1/2">
-          <GalleryWrapper class="grid grid-cols-3 grid-rows-2">
+          <GalleryWrapper class="grid grid-cols-2 sm:grid-cols-3 grid-rows-2 gap-2">
             <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
               <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />
             </GalleryItem>
