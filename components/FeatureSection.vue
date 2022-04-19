@@ -2,7 +2,7 @@
   <section class="px-10 py-16 mx-auto">
     <div class="h-1 bg-rose-500 w-48 mb-10 mx-auto"></div>
     <div class="max-w-7xl mx-auto flex flex-wrap">
-      <div class="w-full md:w-1/3 px-4">
+      <div class="w-full md:w-1/3 px-4 opacity-0" data-st-class="animate__animated animate__fadeIn">
         <div class="h-full p-8 text-center hover:bg-white rounded-md shadow-xl transition duration-200">
           <div class="inline-flex h-16 w-16 mb-7 mx-auto items-center justify-center text-white bg-rose-500 rounded-lg">
             <outline-emoji-happy-icon class="w-7 h-7" />
@@ -16,7 +16,7 @@
           </p>
         </div>
       </div>
-      <div class="w-full md:w-1/3 px-4">
+      <div class="w-full md:w-1/3 px-4 opacity-0" data-st-class="animate__animated animate__fadeIn animate__delay-1s">
         <div class="h-full p-8 text-center hover:bg-white rounded-md shadow-xl transition duration-200">
           <div class="inline-flex h-16 w-16 mb-7 mx-auto items-center justify-center text-white bg-rose-500 rounded-lg">
             <outline-cake-icon class="w-7 h-7" />
@@ -29,7 +29,7 @@
           </p>
         </div>
       </div>
-      <div class="w-full md:w-1/3 px-4">
+      <div class="w-full md:w-1/3 px-4 opacity-0" data-st-class="animate__animated animate__fadeIn animate__delay-2s">
         <div class="h-full p-8 text-center hover:bg-white rounded-md shadow-xl transition duration-200">
           <div class="inline-flex h-16 w-16 mb-7 mx-auto items-center justify-center text-white bg-rose-500 rounded-lg">
             <outline-heart-icon class="w-7 h-7" />
