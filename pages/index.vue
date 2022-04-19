@@ -1,7 +1,7 @@
 <template>
   <main>
     <NavHeader />
-    <HeroSection  data-st-container="hero"/>
+    <HeroSection data-st-container="hero" />
     <ProfileSection data-st-container="profile" />
     <FeatureSection data-st-container="feature" />
     <RoadmapTitle data-st-container="roadmap" />
@@ -17,7 +17,7 @@ export default {
   name: 'IndexPage',
 
   mounted() {
-    this.$scrollTap({ threshold: 0.5});
+    this.$scrollTap({ threshold: 0.5 })
   },
 }
 </script>

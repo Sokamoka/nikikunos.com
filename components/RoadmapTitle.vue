@@ -8,7 +8,10 @@
       >
         Road Map
       </div>
-      <div class="text-3xl font-bold p-3 text-white text-center opacity-0" data-st-class="animate__animated animate__fadeInRight">
+      <div
+        class="text-3xl font-bold p-3 text-white text-center opacity-0"
+        data-st-class="animate__animated animate__fadeInRight"
+      >
         Pre-mint: Founding Cake Lovers
       </div>
       <div
