@@ -77,7 +77,7 @@ const onKeydown = (event) => {
 </script>
 
 <template>
-  <component :is="props.tag" @keydown="onKeydown">
+  <component :is="props.tag">
     <slot :items="items" />
     <transition name="fade">
       <div
@@ -85,6 +85,7 @@ const onKeydown = (event) => {
         ref="galleryRef"
         tabindex="0"
         class="fixed flex items-center justify-center inset-0 z-50"
+        @keydown="onKeydown"
       >
         <div class="fixed bg-white/80 backdrop-blur-sm inset-0 -z-10"></div>
         <svg

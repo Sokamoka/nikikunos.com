@@ -132,7 +132,7 @@
           </p>
         </div>
         <div class="w-full md:w-1/2">
-          <GalleryWrapper class="grid grid-cols-3 grid-rows-2 gap-2">
+          <GalleryWrapper class="grid grid-cols-2 sm:grid-cols-3 grid-rows-2 gap-2">
             <GalleryItem
               class="gallery-thumb"
               src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650306990/carried/riji.carried_acjery.jpg"
@@ -140,8 +140,8 @@
               <nuxt-img
                 provider="cloudinary"
                 src="/carried/riji.carried_acjery.jpg"
-                width="256"
-                height="256"
+                width="320"
+                height="320"
                 loading="lazy"
               />
             </GalleryItem>
@@ -152,8 +152,8 @@
               <nuxt-img
                 provider="cloudinary"
                 src="/carried/debbie.carried_i1ooto.jpg"
-                width="256"
-                height="256"
+                width="320"
+                height="320"
                 loading="lazy"
               />
             </GalleryItem>
@@ -164,8 +164,8 @@
               <nuxt-img
                 provider="cloudinary"
                 src="/carried/lily.carried_rn2n5x.jpg"
-                width="256"
-                height="256"
+                width="320"
+                height="320"
                 loading="lazy"
               />
             </GalleryItem>
@@ -176,8 +176,8 @@
               <nuxt-img
                 provider="cloudinary"
                 src="/carried/smarty.carried_vps9i0.jpg"
-                width="256"
-                height="256"
+                width="320"
+                height="320"
                 loading="lazy"
               />
             </GalleryItem>
@@ -188,8 +188,8 @@
               <nuxt-img
                 provider="cloudinary"
                 src="/carried/mimi.carried_catkwi.jpg"
-                width="256"
-                height="256"
+                width="320"
+                height="320"
                 loading="lazy"
               />
             </GalleryItem>
@@ -200,8 +200,8 @@
               <nuxt-img
                 provider="cloudinary"
                 src="/carried/sylvo.carried_ozfdd2.jpg"
-                width="256"
-                height="256"
+                width="320"
+                height="320"
                 loading="lazy"
               />
             </GalleryItem>
