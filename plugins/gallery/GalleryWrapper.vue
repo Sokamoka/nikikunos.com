@@ -1,6 +1,13 @@
 <script setup>
-import { ref, provide, computed, watch, nextTick } from '@nuxtjs/composition-api'
+import { ref, provide, computed, watch, nextTick, defineProps } from '@nuxtjs/composition-api'
 import { GalleryContext } from './internal'
+
+const props = defineProps({
+  tag: {
+    type: [String, Object],
+    default: 'div',
+  },
+})
 
 const items = ref([])
 const isOpen = ref(false)
@@ -70,15 +77,16 @@ const onKeydown = (event) => {
 </script>
 
 <template>
-  <div @keydown="onKeydown">
+  <component :is="props.tag" @keydown="onKeydown">
     <slot :items="items" />
     <transition name="fade">
       <div
         v-if="isOpen"
         ref="galleryRef"
         tabindex="0"
-        class="fixed flex items-center justify-center bg-white/70 backdrop-blur-sm inset-0 z-50 overscroll-auto"
+        class="fixed flex items-center justify-center inset-0 z-50"
       >
+        <div class="fixed bg-white/80 backdrop-blur-sm inset-0 -z-10"></div>
         <svg
           v-if="isLoading"
           class="absolute top-1/2 left-1/2 animate-spin h-8 w-8 text-rose-600"
@@ -105,14 +113,14 @@ const onKeydown = (event) => {
         <a
           v-if="currentIndex > 0"
           href="#"
-          class="absolute left-4 top-1/2 rounded-full bg-white hover:bg-rose-600 hover:text-white shadow-md p-2 cursor-pointer"
+          class="absolute left-4 top-1/2 rounded-full bg-white hover:bg-rose-600 hover:text-white shadow-md p-2 cursor-pointer  z-20"
           @click.prevent="api.prev()"
         >
           <outline-chevron-left-icon class="w-5 h-5" />
         </a>
         <a
           href="#"
-          class="absolute top-2 right-4 rounded-full bg-white hover:bg-rose-600 hover:text-white shadow-md p-2 cursor-pointer"
+          class="absolute top-2 right-4 rounded-full bg-white hover:bg-rose-600 hover:text-white shadow-md p-2 cursor-pointer  z-20"
           @click.prevent="api.close()"
         >
           <outline-x-icon class="w-5 h-5" />
@@ -120,12 +128,12 @@ const onKeydown = (event) => {
         <a
           v-if="currentIndex < items.length - 1"
           href="#"
-          class="absolute right-4 top-1/2 rounded-full bg-white hover:bg-rose-600 hover:text-white shadow-md p-2 cursor-pointer"
+          class="absolute right-4 top-1/2 rounded-full bg-white hover:bg-rose-600 hover:text-white shadow-md p-2 cursor-pointer z-20"
           @click.prevent="api.next()"
         >
           <outline-chevron-right-icon class="w-5 h-5" />
         </a>
       </div>
     </transition>
-  </div>
+  </component>
 </template>
