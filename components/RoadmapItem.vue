@@ -14,6 +14,7 @@
           <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large">
             <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
           </GalleryItem>
+          <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
         </div>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 max-w-7xl mx-auto">
