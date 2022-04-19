@@ -1,5 +1,5 @@
 <script setup>
-import { ref, provide, computed, watch, nextTick, defineProps } from '@nuxtjs/composition-api'
+import { ref, provide, computed, watch, defineProps } from '@nuxtjs/composition-api'
 import { GalleryContext } from './internal'
 
 const props = defineProps({
@@ -12,7 +12,6 @@ const props = defineProps({
 const items = ref([])
 const isOpen = ref(false)
 const currentIndex = ref(0)
-const galleryRef = ref(null)
 const isLoading = ref(false)
 
 const currentItem = computed(() => items.value[currentIndex.value])
@@ -48,9 +47,10 @@ provide(GalleryContext, api)
 
 watch(isOpen, (value) => {
   if (value) {
-    nextTick(() => galleryRef.value?.focus())
+    window.addEventListener('keydown', onKeydown)
     document.body.classList.add('overflow-hidden')
   } else {
+    window.removeEventListener('keydown', onKeydown)
     document.body.classList.remove('overflow-hidden')
   }
 })
@@ -80,13 +80,7 @@ const onKeydown = (event) => {
   <component :is="props.tag">
     <slot :items="items" />
     <transition name="fade">
-      <div
-        v-if="isOpen"
-        ref="galleryRef"
-        tabindex="0"
-        class="fixed flex items-center justify-center inset-0 z-50"
-        @keydown="onKeydown"
-      >
+      <div v-if="isOpen" tabindex="0" class="fixed flex items-center justify-center inset-0 z-50">
         <div class="fixed bg-white/80 backdrop-blur-sm inset-0 -z-10"></div>
         <svg
           v-if="isLoading"
@@ -114,14 +108,14 @@ const onKeydown = (event) => {
         <a
           v-if="currentIndex > 0"
           href="#"
-          class="absolute left-4 top-1/2 rounded-full bg-white hover:bg-rose-600 hover:text-white shadow-md p-2 cursor-pointer  z-20"
+          class="absolute left-4 top-1/2 rounded-full bg-white hover:bg-rose-600 hover:text-white shadow-md p-2 cursor-pointer z-20"
           @click.prevent="api.prev()"
         >
           <outline-chevron-left-icon class="w-5 h-5" />
         </a>
         <a
           href="#"
-          class="absolute top-2 right-4 rounded-full bg-white hover:bg-rose-600 hover:text-white shadow-md p-2 cursor-pointer  z-20"
+          class="absolute top-2 right-4 rounded-full bg-white hover:bg-rose-600 hover:text-white shadow-md p-2 cursor-pointer z-20"
           @click.prevent="api.close()"
         >
           <outline-x-icon class="w-5 h-5" />
@@ -134,6 +128,12 @@ const onKeydown = (event) => {
         >
           <outline-chevron-right-icon class="w-5 h-5" />
         </a>
+        <div
+          v-if="currentItem.alt"
+          class="absolute bottom-2 left-1/2 bg-rose-600 rounded-full shadow-md text-white text-sm font-medium transform -translate-x-1/2 px-5 py-2"
+        >
+          {{ currentItem.alt }}
+        </div>
       </div>
     </transition>
   </component>

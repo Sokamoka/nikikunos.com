@@ -11,7 +11,11 @@
           </p>
         </div>
         <div class="w-full md:w-1/2">
-          <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large">
+          <GalleryItem
+            class="gallery-thumb"
+            src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large"
+            alt="Ispirated by XYZ"
+          >
             <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
           </GalleryItem>
           <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
@@ -20,13 +24,14 @@
       <div class="grid grid-cols-2 md:grid-cols-3 max-w-7xl mx-auto">
         <GalleryItem
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+          alt="Ispirated by Kismókus"
         >
           <div class="gallery-thumb">
             <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
           </div>
           <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
         </GalleryItem>
-         <GalleryItem
+        <GalleryItem
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
         >
           <div class="gallery-thumb">
@@ -42,7 +47,7 @@
           </div>
           <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
         </GalleryItem>
-         <GalleryItem
+        <GalleryItem
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
         >
           <div class="gallery-thumb">

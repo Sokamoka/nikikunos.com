@@ -12,12 +12,17 @@ const props = defineProps({
     type: String,
     default: '',
   },
+
+  alt: {
+    type: String,
+    default: '',
+  },
 })
 const api = inject(GalleryContext, null)
 
 const id = useId()
 
-onMounted(() => api.registerImage({ id, src: props.src }))
+onMounted(() => api.registerImage({ id, src: props.src, alt: props.alt }))
 
 const onClick = () => {
   api.open(id)
