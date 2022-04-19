@@ -18,40 +18,52 @@
       </div>
       <GalleryWrapper class="grid grid-cols-2 md:grid-cols-3 max-w-7xl mx-auto">
         <GalleryItem
-          class="gallery-thumb"
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
         >
-          <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
+          <div class="gallery-thumb">
+            <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
+          </div>
+          <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
+        </GalleryItem>
+         <GalleryItem
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+        >
+          <div class="gallery-thumb">
+            <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
+          </div>
+          <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
         </GalleryItem>
         <GalleryItem
-          class="gallery-thumb"
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
         >
-          <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
+          <div class="gallery-thumb">
+            <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
+          </div>
+          <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
+        </GalleryItem>
+         <GalleryItem
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+        >
+          <div class="gallery-thumb">
+            <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
+          </div>
+          <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
         </GalleryItem>
         <GalleryItem
-          class="gallery-thumb"
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
         >
-          <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
+          <div class="gallery-thumb">
+            <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
+          </div>
+          <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
         </GalleryItem>
         <GalleryItem
-          class="gallery-thumb"
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
         >
-          <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
-        </GalleryItem>
-        <GalleryItem
-          class="gallery-thumb"
-          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
-        >
-          <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
-        </GalleryItem>
-        <GalleryItem
-          class="gallery-thumb"
-          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
-        >
-          <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
+          <div class="gallery-thumb">
+            <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
+          </div>
+          <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
         </GalleryItem>
       </GalleryWrapper>
     </section>
