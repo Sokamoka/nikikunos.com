@@ -1,6 +1,6 @@
 <template>
   <div>
-    <GalleryWrapper tag="section" class="py-16" data-st-container="“lets-celebrate">
+    <GalleryWrapper tag="section" class="py-16" data-st-container="“lets-celebrate" data-st-offset="220">
       <div class="flex flex-col md:flex-row max-w-7xl mx-auto">
         <div class="w-full md:w-1/2 mb-5 opacity-0" data-st-class="animate-fade-in-left">
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
@@ -25,7 +25,7 @@
         <GalleryItem
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
           alt="Inspirated by Kismókus"
-          data-st-class="animate__animated animate__fadeInUp animate__faster"
+          data-st-class="animate__animated animate__zoomIn animate__faster"
         >
           <div class="gallery-thumb">
             <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="430" loading="lazy" />
@@ -34,7 +34,7 @@
         </GalleryItem>
         <GalleryItem
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650478171/celebrate/laura.letsceleb_qb41dd.jpg"
-          data-st-class="animate__animated animate__fadeInUp animate__delay-1s animate__faster"
+          data-st-class="animate__animated animate__zoomIn animate__delay-1s animate__faster"
         >
           <div class="gallery-thumb">
             <nuxt-img provider="cloudinary" src="/celebrate/laura.letsceleb_qb41dd.jpg" width="430" loading="lazy" />
@@ -43,7 +43,7 @@
         </GalleryItem>
         <GalleryItem
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650478171/celebrate/notyoubro.letsceleb_ieopm1.jpg"
-          data-st-class="animate__animated animate__fadeInUp animate__delay-2s animate__faster"
+          data-st-class="animate__animated animate__zoomIn animate__delay-2s animate__faster"
         >
           <div class="gallery-thumb">
             <nuxt-img provider="cloudinary" src="/celebrate/notyoubro.letsceleb_ieopm1.jpg" width="430" loading="lazy" />
@@ -52,7 +52,7 @@
         </GalleryItem>
         <GalleryItem
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650478171/celebrate/metaangels.letsceleb_eedbtk.jpg"
-          data-st-class="animate__animated animate__fadeInUp animate__delay-3s animate__faster"
+          data-st-class="animate__animated animate__zoomIn animate__delay-3s animate__faster"
         >
           <div class="gallery-thumb">
             <nuxt-img provider="cloudinary" src="/celebrate/metaangels.letsceleb_eedbtk.jpg" width="430" loading="lazy" />
@@ -60,20 +60,20 @@
           <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </GalleryItem>
         <GalleryItem
-          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
-          data-st-class="animate__animated animate__fadeInUp animate__delay-4s animate__faster"
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650481882/celebrate/ice.letsceleb_bjy5dj.jpg"
+          data-st-class="animate__animated animate__zoomIn animate__delay-4s animate__faster"
         >
           <div class="gallery-thumb">
-            <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
+            <nuxt-img provider="cloudinary" src="/celebrate/ice.letsceleb_bjy5dj.jpg" width="430" loading="lazy" />
           </div>
           <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </GalleryItem>
         <GalleryItem
-          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
-          data-st-class="animate__animated animate__fadeInUp animate__delay-5s animate__faster"
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650481882/celebrate/pixxy.letsceleb_p5rvql.jpg"
+          data-st-class="animate__animated animate__zoomIn animate__delay-5s animate__faster"
         >
           <div class="gallery-thumb">
-            <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
+            <nuxt-img provider="cloudinary" src="/celebrate/pixxy.letsceleb_p5rvql.jpg" width="430" loading="lazy" />
           </div>
           <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </GalleryItem>

@@ -5,7 +5,7 @@
         <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
         <h1
           class="px-10 text-3xl font-bold opacity-0"
-          data-st-class="animate__animated animate__fadeInLeft animate__faster"
+          data-st-class="animate-fade-in-left"
         >
           About me
         </h1>

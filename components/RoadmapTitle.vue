@@ -4,19 +4,19 @@
       <div class="h-1 bg-rose-300 w-48 mb-8 mx-10"></div>
       <div
         class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl opacity-0"
-        data-st-class="animate__animated animate__fadeInLeft"
+        data-st-class="animate-fade-in-left"
       >
         Road Map
       </div>
       <div
         class="text-3xl font-bold p-3 text-white text-center opacity-0"
-        data-st-class="animate__animated animate__fadeInRight"
+        data-st-class="animate-fade-in-right"
       >
         Pre-mint: Founding Cake Lovers
       </div>
       <div
         class="mt-2 text-base text-rose-200 sm:mt-5 sm:text-lg sm:max-w-3xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-center opacity-0"
-        data-st-class="animate__animated animate__fadeInUp animate__delay-2s"
+        data-st-class="animate__animated animate__fadeInUp animate__delay-1s animate__faster"
       >
         In this phase i am creating custom-made cakes for happy NFT holders to celebrate their favourite NFTs. The 1st
         minting start with the limited edition "Lets celebrate with cakes 1/1" (150 pieces) and "Say with cakes" (1000
