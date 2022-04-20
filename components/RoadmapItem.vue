@@ -13,10 +13,10 @@
         <div class="w-full md:w-1/2 opacity-0" data-st-class="animate-fade-in-right">
           <GalleryItem
             class="gallery-thumb"
-            src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large"
+            src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650478171/celebrate/debbie.letsceleb_df3dfb.jpg"
             alt="Inspirated by XYZ"
           >
-            <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
+            <nuxt-img provider="cloudinary" src="/celebrate/debbie.letsceleb_df3dfb.jpg" width="640" loading="lazy" />
           </GalleryItem>
           <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </div>
@@ -28,34 +28,34 @@
           data-st-class="animate__animated animate__fadeInUp animate__faster"
         >
           <div class="gallery-thumb">
-            <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
+            <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="430" loading="lazy" />
           </div>
           <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </GalleryItem>
         <GalleryItem
-          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650478171/celebrate/laura.letsceleb_qb41dd.jpg"
           data-st-class="animate__animated animate__fadeInUp animate__delay-1s animate__faster"
         >
           <div class="gallery-thumb">
-            <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
+            <nuxt-img provider="cloudinary" src="/celebrate/laura.letsceleb_qb41dd.jpg" width="430" loading="lazy" />
           </div>
           <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </GalleryItem>
         <GalleryItem
-          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650478171/celebrate/notyoubro.letsceleb_ieopm1.jpg"
           data-st-class="animate__animated animate__fadeInUp animate__delay-2s animate__faster"
         >
           <div class="gallery-thumb">
-            <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
+            <nuxt-img provider="cloudinary" src="/celebrate/notyoubro.letsceleb_ieopm1.jpg" width="430" loading="lazy" />
           </div>
           <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </GalleryItem>
         <GalleryItem
-          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650478171/celebrate/metaangels.letsceleb_eedbtk.jpg"
           data-st-class="animate__animated animate__fadeInUp animate__delay-3s animate__faster"
         >
           <div class="gallery-thumb">
-            <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
+            <nuxt-img provider="cloudinary" src="/celebrate/metaangels.letsceleb_eedbtk.jpg" width="430" loading="lazy" />
           </div>
           <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </GalleryItem>
