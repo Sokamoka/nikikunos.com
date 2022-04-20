@@ -1,8 +1,8 @@
 <template>
   <div>
-    <GalleryWrapper tag="section" class="py-16">
+    <GalleryWrapper tag="section" class="py-16" data-st-container="“lets-celebrate">
       <div class="flex flex-col md:flex-row max-w-7xl mx-auto">
-        <div class="w-full md:w-1/2 mb-5">
+        <div class="w-full md:w-1/2 mb-5 opacity-0" data-st-class="animate-fade-in-left">
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
           <h1 class="px-10 text-3xl font-bold">“Lets celebrate with cake”</h1>
           <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
@@ -10,72 +10,78 @@
             pieces) Sending a print to the owners.
           </p>
         </div>
-        <div class="w-full md:w-1/2">
+        <div class="w-full md:w-1/2 opacity-0" data-st-class="animate-fade-in-right">
           <GalleryItem
             class="gallery-thumb"
             src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large"
-            alt="Ispirated by XYZ"
+            alt="Inspirated by XYZ"
           >
             <img src="https://pbs.twimg.com/media/FP1Q5u-X0AUNUXD?format=jpg&name=large" />
           </GalleryItem>
-          <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
+          <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </div>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 max-w-7xl mx-auto">
         <GalleryItem
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
-          alt="Ispirated by Kismókus"
+          alt="Inspirated by Kismókus"
+          data-st-class="animate__animated animate__fadeInUp animate__faster"
         >
           <div class="gallery-thumb">
             <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
           </div>
-          <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
+          <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </GalleryItem>
         <GalleryItem
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+          data-st-class="animate__animated animate__fadeInUp animate__delay-1s animate__faster"
         >
           <div class="gallery-thumb">
             <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
           </div>
-          <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
+          <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </GalleryItem>
         <GalleryItem
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+          data-st-class="animate__animated animate__fadeInUp animate__delay-2s animate__faster"
         >
           <div class="gallery-thumb">
             <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
           </div>
-          <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
+          <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </GalleryItem>
         <GalleryItem
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+          data-st-class="animate__animated animate__fadeInUp animate__delay-3s animate__faster"
         >
           <div class="gallery-thumb">
             <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
           </div>
-          <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
+          <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </GalleryItem>
         <GalleryItem
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+          data-st-class="animate__animated animate__fadeInUp animate__delay-4s animate__faster"
         >
           <div class="gallery-thumb">
             <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
           </div>
-          <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
+          <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </GalleryItem>
         <GalleryItem
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
+          data-st-class="animate__animated animate__fadeInUp animate__delay-5s animate__faster"
         >
           <div class="gallery-thumb">
             <nuxt-img provider="cloudinary" src="/celebrate/Lily.lets1_zbalhz.jpg" width="856" loading="lazy" />
           </div>
-          <p class="text-xs text-gray-400 text-right px-2">Ispirated by XYZ</p>
+          <p class="text-xs text-gray-400 text-right px-2">Inspirated by XYZ</p>
         </GalleryItem>
       </div>
     </GalleryWrapper>
-    <section class="pt-16" data-st-container="say-it-with-cake">
+    <section class="pt-16" data-st-container="say-it-with-cake" data-st-offset="100">
       <div class="flex flex-col md:flex-row-reverse max-w-7xl mx-auto">
-        <div class="w-full md:w-1/2 mb-5 opacity-0" data-st-class="animate__animated animate__fadeInRight">
+        <div class="w-full md:w-1/2 mb-5 opacity-0" data-st-class="animate-fade-in-right">
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
           <h1 class="px-10 text-3xl font-bold">“Say it with cake“</h1>
           <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
@@ -83,7 +89,7 @@
             collection and feed your soul with cakes eveyday, you can give the cake as a special gift.
           </p>
         </div>
-        <div class="w-full md:w-1/2 opacity-0" data-st-class="animate__animated animate__fadeInLeft">
+        <div class="w-full md:w-1/2 opacity-0" data-st-class="animate-fade-in-left">
           <GalleryWrapper class="grid grid-cols-2 sm:grid-cols-3 grid-rows-2 gap-2">
             <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
               <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />
@@ -108,9 +114,9 @@
       </div>
     </section>
 
-    <section class="bg-rose-50">
+    <section class="bg-rose-50" data-st-container="information" data-st-offset="120">
       <div class="max-w-7xl mx-auto mt-5 text-center flex flex-col items-center pt-8">
-        <p class="pb-10 px-10 text-base text-rose-400 sm:text-base md:text-lg md:w-4/5">
+        <p class="pb-10 px-10 text-base text-rose-400 sm:text-base md:text-lg md:w-4/5 opacity-0" data-st-class="animate__animated animate__fadeIn">
           Early ownership gives you exclusive access to the Founding Members Club. Our founding members enjoy benefits
           like airdrops, pre-mint tickets to our limited PFPs, and right to vote supporting upcoming women-led projects
           of 10% of the profits from the following
@@ -119,9 +125,9 @@
       </div>
     </section>
 
-    <section class="py-16">
+    <section class="py-16" data-st-container="carried">
       <div class="flex flex-col md:flex-row max-w-7xl mx-auto">
-        <div class="w-full md:w-1/2 mb-5">
+        <div class="w-full md:w-1/2 mb-5 opacity-0" data-st-class="animate-fade-in-left">
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
           <h1 class="px-10 text-3xl font-bold">“I carried the cake” (PFP)</h1>
           <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
@@ -137,7 +143,7 @@
             WAGMI
           </p>
         </div>
-        <div class="w-full md:w-1/2">
+        <div class="w-full md:w-1/2 opacity-0" data-st-class="animate-fade-in-right">
           <GalleryWrapper class="grid grid-cols-2 sm:grid-cols-3 grid-rows-2 gap-2">
             <GalleryItem
               class="gallery-thumb"
@@ -215,9 +221,9 @@
         </div>
       </div>
     </section>
-    <section class="py-16">
+    <section class="py-16" data-st-container="wish">
       <div class="flex flex-col md:flex-row-reverse max-w-7xl mx-auto">
-        <div class="w-full md:w-1/2 mb-5">
+        <div class="w-full md:w-1/2 mb-5 opacity-0" data-st-class="animate-fade-in-left">
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
           <h1 class="px-10 text-3xl font-bold">“Make a wish”</h1>
           <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
@@ -231,7 +237,7 @@
             world.
           </p>
         </div>
-        <div class="w-full md:w-1/2">
+        <div class="w-full md:w-1/2 opacity-0" data-st-class="animate-fade-in-right">
           <div class="grid grid-cols-3 grid-rows-2">
             <div>
               <img src="https://pbs.twimg.com/media/FPbkrLWWYAMrPr6?format=jpg&name=4096x4096" />

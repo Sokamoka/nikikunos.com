@@ -1,18 +1,20 @@
-const createObserver = (options) => {
+const createObserver = (options = {}) => {
+  const { offset = 0, ...restOptions } = options
   const elements = document.querySelectorAll('[data-st-container]')
   const deafultOptions = {
     root: null,
     rootMargin: '0px',
-    threshold: 0,
+    threshold: buildThresholdList(),
   }
-  const mergedOptions = { ...deafultOptions, ...options }
+  const mergedOptions = { ...deafultOptions, ...restOptions }
 
   const callback = (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        const elem = entry.target
-        // console.log('itersecting:', elem)
-        const animatedElements = elem.querySelectorAll('[data-st-class]')
+        const { offset: dataOffset } = getOptions(entry.target)
+        const offsetRatio = calculateOffsetRatio(entry, dataOffset || offset)
+        if (entry.intersectionRatio < offsetRatio) return
+        const animatedElements = entry.target.querySelectorAll('[data-st-class]')
         animatedElements.forEach((element) => {
           const classes = element.dataset.stClass?.split(' ') ?? []
           element.classList.add(...classes)
@@ -23,6 +25,31 @@ const createObserver = (options) => {
   const observer = new IntersectionObserver(callback, mergedOptions)
   elements.forEach((element) => observer.observe(element))
 }
+
 export default ({ app }, inject) => {
   inject('scrollTap', (options) => createObserver(options))
+}
+
+const buildThresholdList = () => {
+  const thresholds = []
+  const numSteps = 20
+
+  for (let i = 1.0; i <= numSteps; i++) {
+    const ratio = i / numSteps
+    thresholds.push(ratio)
+  }
+
+  thresholds.push(0)
+  return thresholds
+}
+
+const calculateOffsetRatio = (entry, offset) => {
+  return offset / entry.boundingClientRect.height
+}
+
+const getOptions = (target) => {
+  const offset = target.dataset.stOffset
+  return {
+    offset,
+  }
 }

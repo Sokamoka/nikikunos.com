@@ -7,7 +7,7 @@
     <RoadmapTitle data-st-container="roadmap" />
     <RoadmapItem />
     <UpcomingSection />
-    <ContactUs />
+    <ContactUs data-st-container="footer" />
     <FooterSection />
   </main>
 </template>
@@ -17,7 +17,7 @@ export default {
   name: 'IndexPage',
 
   mounted() {
-    this.$scrollTap({ rootMargin: '-160px' })
+    this.$scrollTap({ offset: 160 })
   },
 }
 </script>
