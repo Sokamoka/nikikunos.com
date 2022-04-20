@@ -6,7 +6,7 @@
     <FeatureSection data-st-container="feature" />
     <RoadmapTitle data-st-container="roadmap" />
     <RoadmapItem />
-    <UpcomingSection />
+    <UpcomingSection data-st-container="upcoming" />
     <ContactUs data-st-container="footer" />
     <FooterSection />
   </main>
