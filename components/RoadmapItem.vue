@@ -73,9 +73,9 @@
         </GalleryItem>
       </div>
     </GalleryWrapper>
-    <section class="pt-16">
+    <section class="pt-16" data-st-container="say-it-with-cake">
       <div class="flex flex-col md:flex-row-reverse max-w-7xl mx-auto">
-        <div class="w-full md:w-1/2 mb-5">
+        <div class="w-full md:w-1/2 mb-5 opacity-0" data-st-class="animate__animated animate__fadeInRight">
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
           <h1 class="px-10 text-3xl font-bold">“Say it with cake“</h1>
           <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
@@ -83,7 +83,7 @@
             collection and feed your soul with cakes eveyday, you can give the cake as a special gift.
           </p>
         </div>
-        <div class="w-full md:w-1/2">
+        <div class="w-full md:w-1/2 opacity-0" data-st-class="animate__animated animate__fadeInLeft">
           <GalleryWrapper class="grid grid-cols-2 sm:grid-cols-3 grid-rows-2 gap-2">
             <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
               <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />

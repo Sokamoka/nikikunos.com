@@ -17,13 +17,13 @@ export default {
   name: 'IndexPage',
 
   mounted() {
-    this.$scrollTap({ threshold: 0.5 })
+    this.$scrollTap({ rootMargin: '-160px' })
   },
 }
 </script>
 
 <style>
 :root {
-  --animate-delay: 0.2s;
+  --animate-delay: 0.4s;
 }
 </style>
