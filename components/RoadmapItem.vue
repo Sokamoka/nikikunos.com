@@ -1,6 +1,6 @@
 <template>
   <div>
-    <GalleryWrapper tag="section" class="py-16" data-st-container="“lets-celebrate" data-st-offset="220">
+    <GalleryWrapper tag="section" class="py-16" data-st-container="lets-celebrate" data-st-offset="220">
       <div class="flex flex-col md:flex-row max-w-7xl mx-auto">
         <div class="w-full md:w-1/2 mb-5 opacity-0" data-st-class="animate-fade-in-left">
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
