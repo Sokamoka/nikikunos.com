@@ -17,7 +17,7 @@ export default {
   name: 'IndexPage',
 
   mounted() {
-    this.$scrollTap({ offset: 160 })
+    this.$scrollTap({ offset: 160, margin: 68 })
   },
 }
 </script>

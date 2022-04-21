@@ -1,5 +1,5 @@
 const createObserver = (options = {}) => {
-  const { offset = 0, ...restOptions } = options
+  const { offset = 0, margin = 0, ...restOptions } = options
   const elements = document.querySelectorAll('[data-st-container]')
   const deafultOptions = {
     root: null,
@@ -9,6 +9,7 @@ const createObserver = (options = {}) => {
   const mergedOptions = { ...deafultOptions, ...restOptions }
 
   const callback = (entries) => {
+    calculateActiveScene(elements, margin)
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         const { offset: dataOffset } = getOptions(entry.target)
@@ -52,4 +53,16 @@ const getOptions = (target) => {
   return {
     offset,
   }
+}
+
+const calculateActiveScene = (entries, margin) => {
+  const current =
+    entries.length -
+    [...entries].reverse().findIndex((section) => {
+      // console.dir(section)
+      // console.log(section.dataset.stContainer, section.offsetTop)
+      return window.scrollY >= section.offsetTop - margin
+    }) -
+    1
+  console.log(entries[current].dataset.stContainer)
 }
