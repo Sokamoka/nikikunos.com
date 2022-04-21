@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16">
+  <section id="about" class="py-16 scroll-mt-16">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row">
       <div class="w-full md:w-2/3 py-5">
         <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>

@@ -1,5 +1,5 @@
 <template>
-  <section class="px-10 py-16 mx-auto">
+  <section id="features" class="px-10 py-16 mx-auto scroll-mt-16" data-st-container="features">
     <div class="h-1 bg-rose-500 w-48 mb-10 mx-auto"></div>
     <div class="max-w-7xl mx-auto flex flex-wrap">
       <div class="w-full md:w-1/3 px-4 opacity-0" data-st-class="animate__animated animate__fadeIn">

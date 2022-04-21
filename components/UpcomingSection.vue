@@ -1,5 +1,5 @@
 <template>
-  <section class="py-8">
+  <section id="upcoming" class="py-8 scroll-mt-16">
     <div class="max-w-7xl mx-auto">
       <div class="lg:text-center mx-10">
         <h2

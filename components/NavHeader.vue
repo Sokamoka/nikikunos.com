@@ -7,7 +7,16 @@
       },
     ]"
   >
-    <div class="max-w-7xl mx-auto py-5 px-10 font-bold text-xl w-full">NikiKunos.com</div>
+    <div class="max-w-7xl mx-auto py-5 px-10 w-full flex">
+      <a href="#" class="flex-1 font-bold text-xl">NikiKunos.com</a>
+      <div class="space-x-5">
+        <a href="#about" class="button is-header">About</a>
+        <a href="#features" class="button is-header">Features</a>
+        <a href="#roadmap" class="button is-header">Road map</a>
+        <a href="#upcoming" class="button is-header">Upcomming</a>
+        <a href="#contact" class="button is-header">Contact</a>
+      </div>
+    </div>
   </nav>
 </template>
 

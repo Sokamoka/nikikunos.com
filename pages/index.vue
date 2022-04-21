@@ -3,7 +3,7 @@
     <NavHeader />
     <HeroSection data-st-container="hero" />
     <ProfileSection data-st-container="profile" />
-    <FeatureSection data-st-container="feature" />
+    <FeatureSection />
     <RoadmapTitle data-st-container="roadmap" />
     <RoadmapItem />
     <UpcomingSection data-st-container="upcoming" />

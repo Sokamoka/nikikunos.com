@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-wave bg-bottom mt-8">
+  <section id="contact" class="bg-wave bg-bottom mt-8">
     <div class="max-w-7xl mx-auto px-10">
       <div class="h-1 bg-rose-500 w-48 mb-8 mx-auto"></div>
       <div class="px-10 py-8 md: flex flex-col md:flex-row justify-between bg-white rounded-xl">
