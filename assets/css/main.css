@@ -24,4 +24,7 @@
   .button.is-header {
     @apply text-gray-400 text-base font-medium hover:text-rose-600 transition duration-200;
   }
+  .button.is-header.is-active {
+    @apply text-rose-600;
+  }
 }
