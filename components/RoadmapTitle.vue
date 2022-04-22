@@ -1,5 +1,5 @@
 <template>
-  <section id="roadmap" class="bg-rose-600 bg-roadmap-pattern scroll-mt-14">
+  <section id="roadmap" class="bg-rose-600 bg-roadmap-pattern scroll-mt-12" data-st-container="roadmap">
     <div class="max-w-7xl mx-auto py-16 px-10 flex flex-col items-center">
       <div class="h-1 bg-rose-300 w-48 mb-8 mx-10"></div>
       <div
@@ -8,10 +8,7 @@
       >
         Road Map
       </div>
-      <div
-        class="text-3xl font-bold p-3 text-white text-center opacity-0"
-        data-st-class="animate-fade-in-right"
-      >
+      <div class="text-3xl font-bold p-3 text-white text-center opacity-0" data-st-class="animate-fade-in-right">
         Pre-mint: Founding Cake Lovers
       </div>
       <div

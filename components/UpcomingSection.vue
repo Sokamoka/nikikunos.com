@@ -1,5 +1,5 @@
 <template>
-  <section id="upcoming" class="py-8 scroll-mt-16">
+  <section id="upcoming" class="py-8 scroll-mt-16" data-st-container="upcoming">
     <div class="max-w-7xl mx-auto">
       <div class="lg:text-center mx-10">
         <h2
@@ -25,7 +25,10 @@
 
       <div class="mt-10 mx-10">
         <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-          <div class="relative opacity-0" data-st-class="animate__animated animate__fadeIn animate__delay-3s animate__faster">
+          <div
+            class="relative opacity-0"
+            data-st-class="animate__animated animate__fadeIn animate__delay-3s animate__faster"
+          >
             <dt>
               <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
                 <outline-beaker-icon class="w-7 h-7" />
@@ -39,7 +42,10 @@
               illustrated recipes + IRL aprons
             </dd>
           </div>
-          <div class="relative opacity-0" data-st-class="animate__animated animate__fadeIn animate__delay-4s animate__faster">
+          <div
+            class="relative opacity-0"
+            data-st-class="animate__animated animate__fadeIn animate__delay-4s animate__faster"
+          >
             <dt>
               <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
                 <outline-gift-icon class="w-7 h-7" />

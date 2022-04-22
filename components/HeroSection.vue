@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-[url('../img/niki-waves.svg')] bg-no-repeat bg-cover bg-bottom">
+  <section class="bg-[url('../img/niki-waves.svg')] bg-no-repeat bg-cover bg-bottom" data-st-container="hero">
     <div class="max-w-7xl mx-auto py-32 px-10 flex flex-col items-center">
       <div
         class="text-4xl text-center whitespace-pre-line tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
