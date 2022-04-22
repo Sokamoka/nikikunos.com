@@ -1,13 +1,13 @@
 <template>
   <main>
     <NavHeader />
-    <HeroSection data-st-container="hero" />
-    <ProfileSection data-st-container="profile" />
-    <FeatureSection data-st-container="feature" />
-    <RoadmapTitle data-st-container="roadmap" />
+    <HeroSection />
+    <ProfileSection />
+    <FeatureSection />
+    <RoadmapTitle />
     <RoadmapItem />
-    <UpcomingSection data-st-container="upcoming" />
-    <ContactUs data-st-container="footer" />
+    <UpcomingSection />
+    <ContactUs />
     <FooterSection />
   </main>
 </template>
@@ -17,7 +17,7 @@ export default {
   name: 'IndexPage',
 
   mounted() {
-    this.$scrollTap({ offset: 160 })
+    this.$scrollTap({ offset: 160, margin: 70 })
   },
 }
 </script>

@@ -1,6 +1,9 @@
 const createObserver = (options = {}) => {
-  const { offset = 0, ...restOptions } = options
+  const { offset = 0, margin = 0, ...restOptions } = options
+
   const elements = document.querySelectorAll('[data-st-container]')
+  // const spyLinks = document.querySelectorAll('[data-st-spy]')
+
   const deafultOptions = {
     root: null,
     rootMargin: '0px',
@@ -9,6 +12,8 @@ const createObserver = (options = {}) => {
   const mergedOptions = { ...deafultOptions, ...restOptions }
 
   const callback = (entries) => {
+    const spyLinks = document.querySelectorAll('[data-st-spy]')
+    calculateActiveScene(elements, margin, spyLinks)
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         const { offset: dataOffset } = getOptions(entry.target)
@@ -53,3 +58,16 @@ const getOptions = (target) => {
     offset,
   }
 }
+
+const calculateActiveScene = (entries, margin, spyLinks) => {
+  const current =
+    entries.length - [...entries].reverse().findIndex((section) => window.scrollY >= section.offsetTop - margin) - 1
+  removeAllActive(spyLinks)
+  makeActive(entries[current].dataset.stContainer)
+}
+
+const makeActive = (id) => {
+  document.querySelector(`[data-st-spy*=${id}]`)?.classList.add('is-active')
+}
+const removeActive = (link) => link.classList.remove('is-active')
+const removeAllActive = (links) => links.forEach((link) => removeActive(link))

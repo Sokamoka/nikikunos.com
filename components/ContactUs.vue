@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-wave bg-bottom mt-8">
+  <section id="contact" class="bg-wave bg-bottom mt-8" data-st-container="contact">
     <div class="max-w-7xl mx-auto px-10">
       <div class="h-1 bg-rose-500 w-48 mb-8 mx-auto"></div>
       <div class="px-10 py-8 md: flex flex-col md:flex-row justify-between bg-white rounded-xl">
@@ -7,7 +7,10 @@
           <div class="text-3xl font-bold pr-5 leading-10 opacity-0" data-st-class="animate__animated animate__fadeIn">
             Want to know more or do you still have questions you need answered?
           </div>
-          <div class="text-xl text-gray-500 mb-5 mt-3 opacity-0" data-st-class="animate__animated animate__fadeIn animate__delay-1s">
+          <div
+            class="text-xl text-gray-500 mb-5 mt-3 opacity-0"
+            data-st-class="animate__animated animate__fadeIn animate__delay-1s"
+          >
             Please contact us and we will do our best to respond within 48 hours.
           </div>
         </div>

@@ -5,6 +5,7 @@
 @layer base {
   html {
     font-family: Inter, system-ui, sans-serif;
+    scroll-behavior: smooth;
   }
 
   b {
@@ -18,5 +19,12 @@
   }
   .gallery-thumb img {
     @apply hover:opacity-70 transition-all duration-300 transform-gpu hover:scale-105;
+  }
+
+  .button.is-header {
+    @apply text-gray-400 text-base font-medium hover:text-rose-600 transition duration-200;
+  }
+  .button.is-header.is-active {
+    @apply text-rose-600;
   }
 }

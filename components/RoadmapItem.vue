@@ -1,6 +1,6 @@
 <template>
   <div>
-    <GalleryWrapper tag="section" class="py-16" data-st-container="“lets-celebrate" data-st-offset="220">
+    <GalleryWrapper tag="section" class="py-16" data-st-container="lets-celebrate" data-st-offset="220">
       <div class="flex flex-col md:flex-row max-w-7xl mx-auto">
         <div class="w-full md:w-1/2 mb-5 opacity-0" data-st-class="animate-fade-in-left">
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
@@ -10,18 +10,19 @@
             pieces) Sending a print to the owners.
           </p>
         </div>
-        <div class="w-full md:w-1/2 opacity-0" data-st-class="animate-fade-in-right">
+        <div class="w-full md:w-1/2 overflow-hidden">
           <GalleryItem
-            class="gallery-thumb"
+            class="gallery-thumb opacity-0"
             src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650478171/celebrate/debbie.letsceleb_df3dfb.jpg"
             alt="Inspired by Boss Beauties"
+            data-st-class="animate-fade-in-right"
           >
             <nuxt-img provider="cloudinary" src="/celebrate/debbie.letsceleb_df3dfb.jpg" width="640" loading="lazy" />
           </GalleryItem>
           <p class="text-xs text-gray-400 text-right px-2">Inspired by Boss Beauties</p>
         </div>
       </div>
-      <div class="grid grid-cols-2 md:grid-cols-3 max-w-7xl mx-auto">
+      <div class="grid grid-cols-2 md:grid-cols-3 max-w-7xl mx-auto overflow-hidden">
         <GalleryItem
           src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1650225825/celebrate/Lily.lets1_zbalhz.jpg"
           alt="Inspired by WOW PIXIES"
@@ -48,7 +49,12 @@
           data-st-class="animate__animated animate__zoomIn animate__delay-2s animate__faster"
         >
           <div class="gallery-thumb">
-            <nuxt-img provider="cloudinary" src="/celebrate/notyoubro.letsceleb_ieopm1.jpg" width="430" loading="lazy" />
+            <nuxt-img
+              provider="cloudinary"
+              src="/celebrate/notyoubro.letsceleb_ieopm1.jpg"
+              width="430"
+              loading="lazy"
+            />
           </div>
           <p class="text-xs text-gray-400 text-right px-2">Inspired by Not Your Bro</p>
         </GalleryItem>
@@ -58,7 +64,12 @@
           data-st-class="animate__animated animate__zoomIn animate__delay-3s animate__faster"
         >
           <div class="gallery-thumb">
-            <nuxt-img provider="cloudinary" src="/celebrate/metaangels.letsceleb_eedbtk.jpg" width="430" loading="lazy" />
+            <nuxt-img
+              provider="cloudinary"
+              src="/celebrate/metaangels.letsceleb_eedbtk.jpg"
+              width="430"
+              loading="lazy"
+            />
           </div>
           <p class="text-xs text-gray-400 text-right px-2">Inspired by Meta Angels</p>
         </GalleryItem>
@@ -121,7 +132,10 @@
 
     <section class="bg-rose-50" data-st-container="information" data-st-offset="120">
       <div class="max-w-7xl mx-auto mt-5 text-center flex flex-col items-center pt-8">
-        <p class="pb-10 px-10 text-base text-rose-400 sm:text-base md:text-lg md:w-4/5 opacity-0" data-st-class="animate__animated animate__fadeIn">
+        <p
+          class="pb-10 px-10 text-base text-rose-400 sm:text-base md:text-lg md:w-4/5 opacity-0"
+          data-st-class="animate__animated animate__fadeIn"
+        >
           Early ownership gives you exclusive access to the Founding Members Club. Our founding members enjoy benefits
           like airdrops, pre-mint tickets to our limited PFPs, and right to vote supporting upcoming women-led projects
           of 10% of the profits from the following
