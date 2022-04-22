@@ -13,6 +13,6 @@
 
 <script>
 export default {
-  name: 'NavHeader',
+  name: 'NavFooter',
 }
 </script>
