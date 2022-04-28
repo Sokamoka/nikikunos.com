@@ -36,10 +36,8 @@
               <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Craving for cake</p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-gray-500">
-              (1000 generative pieces) Traditional cakes and desserts from all over the world. After launching this
-              collection we run monthly zoom calls on the following topics: cakes, cakes and cakes. Here we encourage
-              our cake lovers nominate their traditional dessert. The holders will get a free copy of ebook of
-              illustrated recipes + IRL aprons
+              (1000 generative pieces) You can't buy happiness but you can buy cake and that's kind of the same thing.
+              Even if your love language is cake, you'll still enjoy this collection.
             </dd>
           </div>
           <div
@@ -52,7 +50,44 @@
               </div>
               <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Heritage/ desserts</p>
             </dt>
-            <dd class="mt-2 ml-16 text-base text-gray-500">(1000 generative pieces)</dd>
+            <dd class="mt-2 ml-16 text-base text-gray-500">
+              (1000 generative pieces) Traditional cakes and desserts from around the world. Once the collection is
+              launched, we will launch monthly zoom calls on the following topics: cakes, cakes and cakes. Here we
+              encourage cake lovers to nominate their traditional dessert. The owners will receive a free copy of the
+              illustrated recipe ebook ( ,,, + IRL apron ?)
+            </dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="mt-10 mx-10">
+        <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+          <div
+            class="relative opacity-0"
+            data-st-class="animate__animated animate__fadeIn animate__delay-4s animate__faster"
+          >
+            <dt>
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
+                <outline-heart-icon class="w-7 h-7" />
+              </div>
+              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Happily ever after</p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">
+              (1000 generative wedding cakes) What is a better gift than to celebrate the marriage with a unique wedding
+              cake baked on blockchain.
+            </dd>
+          </div>
+          <div
+            class="relative opacity-0"
+            data-st-class="animate__animated animate__fadeIn animate__delay-4s animate__faster"
+          >
+            <dt>
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
+                <outline-users-icon class="w-7 h-7" />
+              </div>
+              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Collabs with our friends</p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">Lorem ipsum</dd>
           </div>
         </dl>
       </div>

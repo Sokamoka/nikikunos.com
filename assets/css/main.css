@@ -11,6 +11,10 @@
   b {
     @apply text-rose-600;
   }
+
+  p {
+    @apply mb-5;
+  }
 }
 
 @layer components {

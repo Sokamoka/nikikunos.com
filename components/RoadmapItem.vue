@@ -107,23 +107,53 @@
         </div>
         <div class="w-full md:w-1/2 opacity-0" data-st-class="animate-fade-in-left">
           <GalleryWrapper class="grid grid-cols-2 sm:grid-cols-3 grid-rows-2 gap-2">
-            <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
-              <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />
+            <GalleryItem
+              class="gallery-thumb"
+              src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1651168306/saywithcake/saywithcake-01_ha4trp.jpg"
+            >
+              <nuxt-img
+                provider="cloudinary"
+                src="/saywithcake/saywithcake-01_ha4trp.jpg"
+                width="320"
+                height="320"
+                loading="lazy"
+              />
             </GalleryItem>
-            <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
-              <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />
+            <GalleryItem
+              class="gallery-thumb"
+              src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1651168307/saywithcake/saywithcake-02_o6jzwz.jpg"
+            >
+              <nuxt-img
+                provider="cloudinary"
+                src="/saywithcake/saywithcake-02_o6jzwz.jpg"
+                width="320"
+                height="320"
+                loading="lazy"
+              />
             </GalleryItem>
-            <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
-              <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />
+            <GalleryItem
+              class="gallery-thumb"
+              src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1651168308/saywithcake/saywithcake-03_hgi3a2.jpg"
+            >
+              <nuxt-img
+                provider="cloudinary"
+                src="/saywithcake/saywithcake-03_hgi3a2.jpg"
+                width="320"
+                height="320"
+                loading="lazy"
+              />
             </GalleryItem>
-            <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
-              <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />
-            </GalleryItem>
-            <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
-              <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />
-            </GalleryItem>
-            <GalleryItem class="gallery-thumb" src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large">
-              <img src="https://pbs.twimg.com/media/FP0CbsMWUAw4wQm?format=jpg&name=large" />
+            <GalleryItem
+              class="gallery-thumb"
+              src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1651168311/saywithcake/saywithcake-04_ch8fk0.jpg"
+            >
+              <nuxt-img
+                provider="cloudinary"
+                src="/saywithcake/saywithcake-04_ch8fk0.jpg"
+                width="320"
+                height="320"
+                loading="lazy"
+              />
             </GalleryItem>
           </GalleryWrapper>
         </div>
@@ -246,37 +276,90 @@
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
           <h1 class="px-10 text-3xl font-bold">“Make a wish”</h1>
           <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
-            Can you imagine any celebration without cake? We all love the special moment when all the candles are blown
-            out and the celebrated one makes a wish. If you have a “ Say with cakes” piece here you can blow the candles
-            on the fitting cake.
+            (animated) (1000 generative pieces) Can you imagine any celebration without cake? We all love the special
+            moment when all the candles are blown out and the celebrated one makes a wish. If you have a “ Say with
+            cakes” piece here you can blow the candles on the matching cake.
           </p>
           <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
-            The 10 % profit of this collection supporting special movement like “Grandpa Kitchen” who feed with giant
-            cakes hundreds children. We need your help here, to find additional special human or community all over the
-            world.
+            The 10% profit from the collection supports special movements like Grandpa's Kitchen, who feed hundreds of
+            children with giant cakes. We need your help to find more special people or communities around the world.
           </p>
         </div>
         <div class="w-full md:w-1/2 opacity-0" data-st-class="animate-fade-in-right">
-          <div class="grid grid-cols-3 grid-rows-2">
-            <div>
-              <img src="https://pbs.twimg.com/media/FPbkrLWWYAMrPr6?format=jpg&name=4096x4096" />
-            </div>
-            <div>
-              <img src="https://pbs.twimg.com/media/FPbkrLWWYAMrPr6?format=jpg&name=4096x4096" />
-            </div>
-            <div>
-              <img src="https://pbs.twimg.com/media/FPbkrLWWYAMrPr6?format=jpg&name=4096x4096" />
-            </div>
-            <div>
-              <img src="https://pbs.twimg.com/media/FPbkrLWWYAMrPr6?format=jpg&name=4096x4096" />
-            </div>
-            <div>
-              <img src="https://pbs.twimg.com/media/FPbkrLWWYAMrPr6?format=jpg&name=4096x4096" />
-            </div>
-            <div>
-              <img src="https://pbs.twimg.com/media/FPbkrLWWYAMrPr6?format=jpg&name=4096x4096" />
-            </div>
-          </div>
+          <GalleryWrapper class="grid grid-cols-2 sm:grid-cols-3 grid-rows-2 gap-2">
+            <GalleryItem
+              class="gallery-thumb"
+              src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1651169651/makeawish/makeawish-01_jyjgso.jpg"
+            >
+              <nuxt-img
+                provider="cloudinary"
+                src="/makeawish/makeawish-01_jyjgso.jpg"
+                width="320"
+                height="320"
+                loading="lazy"
+              />
+            </GalleryItem>
+            <GalleryItem
+              class="gallery-thumb"
+              src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1651169677/makeawish/makeqwish-02_ak6hvu.jpg"
+            >
+              <nuxt-img
+                provider="cloudinary"
+                src="/makeawish/makeqwish-02_ak6hvu.jpg"
+                width="320"
+                height="320"
+                loading="lazy"
+              />
+            </GalleryItem>
+            <GalleryItem
+              class="gallery-thumb"
+              src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1651169656/makeawish/makeawish-03_cfchdt.jpg"
+            >
+              <nuxt-img
+                provider="cloudinary"
+                src="/makeawish/makeawish-03_cfchdt.jpg"
+                width="320"
+                height="320"
+                loading="lazy"
+              />
+            </GalleryItem>
+            <GalleryItem
+              class="gallery-thumb"
+              src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1651169662/makeawish/makeawish-04_qojit5.jpg"
+            >
+              <nuxt-img
+                provider="cloudinary"
+                src="/makeawish/makeawish-04_qojit5.jpg"
+                width="320"
+                height="320"
+                loading="lazy"
+              />
+            </GalleryItem>
+            <GalleryItem
+              class="gallery-thumb"
+              src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1651169669/makeawish/makeawish-05_bocett.jpg"
+            >
+              <nuxt-img
+                provider="cloudinary"
+                src="/makeawish/makeawish-05_bocett.jpg"
+                width="320"
+                height="320"
+                loading="lazy"
+              />
+            </GalleryItem>
+            <GalleryItem
+              class="gallery-thumb"
+              src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1651169686/makeawish/makewish-06_sboufo.jpg"
+            >
+              <nuxt-img
+                provider="cloudinary"
+                src="/makeawish//makewish-06_sboufo.jpg"
+                width="320"
+                height="320"
+                loading="lazy"
+              />
+            </GalleryItem>
+          </GalleryWrapper>
         </div>
       </div>
     </section>

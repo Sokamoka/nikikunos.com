@@ -15,9 +15,15 @@
         class="mt-2 text-base text-rose-200 sm:mt-5 sm:text-lg sm:max-w-3xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-center opacity-0"
         data-st-class="animate__animated animate__fadeInUp animate__delay-1s animate__faster"
       >
-        In this phase i am creating custom-made cakes for happy NFT holders to celebrate their favourite NFTs. The 1st
-        minting start with the limited edition "Lets celebrate with cakes 1/1" (150 pieces) and "Say with cakes" (1000
-        pieces) collection launches.
+        <p>
+          Our first collection is called: Lets celebrate with cakes 1/1 It is a limited edition of 150 custom-made cakes
+          for happy NFT holders to celebrate their favorite NFTs.
+        </p>
+        <p>
+          After we mint out "Lets celebrate with cakes 1/1 " we will launch our second generative collection. We have so
+          many surprises for you that include a little bit of animation and a little bit of home! Stay tuned for more
+          info!
+        </p>
       </div>
     </div>
   </section>
