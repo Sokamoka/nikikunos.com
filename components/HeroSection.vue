@@ -40,7 +40,7 @@
         <div class="rounded-md shadow">
           <a
             href="https://twitter.com/niki_s_kunos"
-            class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-500 hover:bg-gray-800 md:py-4 md:text-lg md:px-5"
+            class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 md:py-4 md:text-lg md:px-5"
             target="_blank"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 335 276" fill="#fff" class="w-7 h-7">
@@ -53,8 +53,8 @@
 
         <div class="rounded-md shadow">
           <a
-            href="#"
-            class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-500 hover:bg-gray-800 md:py-4 md:text-lg md:px-5"
+            href="https://www.instagram.com/cakeclub.nft/"
+            class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-600 hover:bg-rose-700 md:py-4 md:text-lg md:px-5"
             target="_blank"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-7 h-7" fill="#fff">

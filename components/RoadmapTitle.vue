@@ -20,7 +20,7 @@
           for happy NFT holders to celebrate their favorite NFTs.
         </p>
         <p>
-          After we mint out "Lets celebrate with cakes 1/1 " we will launch our second generative collection. We have so
+          After we mint out "Lets celebrate with cakes 1/1" we will launch our second generative collection. We have so
           many surprises for you that include a little bit of animation and a little bit of home! Stay tuned for more
           info!
         </p>

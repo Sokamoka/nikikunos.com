@@ -6,8 +6,8 @@
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
           <h1 class="px-10 text-3xl font-bold">“Lets celebrate with cake”</h1>
           <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
-            “Lets celebrate with cake” (1/1): includes only custom made cakes from any “Cake Club Collection". (only 150
-            pieces) Sending a print to the owners.
+            “Lets celebrate with cake” (1/1 PFP): includes only custom made cakes from any “Cake Club Collection". (only
+            150 pieces) Sending a print to the owners.
           </p>
         </div>
         <div class="w-full md:w-1/2 overflow-hidden">
@@ -101,12 +101,12 @@
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
           <h1 class="px-10 text-3xl font-bold">“Say it with cake“</h1>
           <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
-            (1000 generative pieces) ( 200 good vibes quotes+ wishes ( like birthday wishes…etc) ) Create your own cake
-            collection and feed your soul with cakes eveyday, you can give the cake as a special gift.
+            (3000 generative pieces) Create your own cake collection and feed your soul with cakes everyday, you can
+            give the cake as a special gift.
           </p>
         </div>
         <div class="w-full md:w-1/2 opacity-0" data-st-class="animate-fade-in-left">
-          <GalleryWrapper class="grid grid-cols-2 sm:grid-cols-3 grid-rows-2 gap-2">
+          <GalleryWrapper class="grid grid-cols-2 sm:grid-cols-3 grid-rows-1 gap-2">
             <GalleryItem
               class="gallery-thumb"
               src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1651168306/saywithcake/saywithcake-01_ha4trp.jpg"
@@ -119,7 +119,7 @@
                 loading="lazy"
               />
             </GalleryItem>
-            <GalleryItem
+            <!-- <GalleryItem
               class="gallery-thumb"
               src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1651168307/saywithcake/saywithcake-02_o6jzwz.jpg"
             >
@@ -130,7 +130,7 @@
                 height="320"
                 loading="lazy"
               />
-            </GalleryItem>
+            </GalleryItem> -->
             <GalleryItem
               class="gallery-thumb"
               src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1651168308/saywithcake/saywithcake-03_hgi3a2.jpg"
@@ -168,8 +168,8 @@
         >
           Early ownership gives you exclusive access to the Founding Members Club. Our founding members enjoy benefits
           like airdrops, pre-mint tickets to our limited PFPs, and right to vote supporting upcoming women-led projects
-          of 10% of the profits from the following
-          <strong>"I carried a cake”</strong> PFP collection. <br />Next minting when “say it with cake 50% sold.
+          of x % of the profits from the following <strong>"I carried a cake”</strong> PFP collection. <br />Next
+          minting when “say it with cake“ x % sold.
         </p>
       </div>
     </section>
@@ -180,16 +180,14 @@
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
           <h1 class="px-10 text-3xl font-bold">“I carried the cake” (PFP)</h1>
           <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
-            We all are Baby from Dirty Dancing, who carried a watermelon and found a totally different world. First
-            steps into WEB3 is not easy, but if you are curious enough you will find a genuine and supportive community.
-            Carrying the cake is like opening the door to Narnia into a secret world full of colorful and endless
-            possibilities.
+            Carrying the cake is like stepping into a totally different world like Baby in “Dirty Dancing”, who carried
+            a watermelon. First steps into WEB3 is not easy, but if you are curious enough you will find a genuine,
+            creative and supportive community. Everyone is happy for the one who adds the cake to the party.
           </p>
           <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
             Together with our community members, we would like to support women-led project. We will decide together
-            what new upcoming project to support <b>each quarter with 10%</b> of the collection’s revenue. We will
-            purchase from the voted collections, which we giveaway among our members. We are here to lift each other up.
-            WAGMI
+            what new upcoming project to support each quarter with x % of the collection’s revenue. We will purchase
+            from the voted collections, which we giveaway among our members. We are here to lift each other up. WAGMI
           </p>
         </div>
         <div class="w-full md:w-1/2 opacity-0" data-st-class="animate-fade-in-right">
@@ -276,13 +274,14 @@
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
           <h1 class="px-10 text-3xl font-bold">“Make a wish”</h1>
           <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
-            (animated) (1000 generative pieces) Can you imagine any celebration without cake? We all love the special
-            moment when all the candles are blown out and the celebrated one makes a wish. If you have a “ Say with
+            (3000 generative animated pieces) Can you imagine any celebration without cake? We all love the special
+            moment when all the candles are blown out and the celebrated one makes a wish. If you have a “Say with
             cakes” piece here you can blow the candles on the matching cake.
           </p>
           <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
-            The 10% profit from the collection supports special movements like Grandpa's Kitchen, who feed hundreds of
-            children with giant cakes. We need your help to find more special people or communities around the world.
+            The X % profit of this collection supporting special movement like “Grandpa Kitchen” who feed with giant
+            cakes hundreds children. We need your help here, to find additional special human or community all over the
+            world.
           </p>
         </div>
         <div class="w-full md:w-1/2 opacity-0" data-st-class="animate-fade-in-right">

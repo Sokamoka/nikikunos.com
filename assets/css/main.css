@@ -8,12 +8,12 @@
     scroll-behavior: smooth;
   }
 
-  b {
-    @apply text-rose-600;
-  }
-
   p {
     @apply mb-5;
+  }
+
+  a {
+    @apply hover:underline font-bold text-rose-600;
   }
 }
 

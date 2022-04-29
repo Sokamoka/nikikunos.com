@@ -18,13 +18,12 @@
           class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto opacity-0"
           data-st-class="animate__animated animate__fadeInUp animate__delay-2s animate__faster"
         >
-          Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-          accusamus quisquam.
+          We'll bring some extra cakes to the table and we can't wait to invite some friends to collaborate.
         </p>
       </div>
 
       <div class="mt-10 mx-10">
-        <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+        <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
           <div
             class="relative opacity-0"
             data-st-class="animate__animated animate__fadeIn animate__delay-3s animate__faster"
@@ -51,20 +50,16 @@
               <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Heritage/ desserts</p>
             </dt>
             <dd class="mt-2 ml-16 text-base text-gray-500">
-              (1000 generative pieces) Traditional cakes and desserts from around the world. Once the collection is
+              (3000 generative pieces) Traditional cakes and desserts from around the world. Once the collection is
               launched, we will launch monthly zoom calls on the following topics: cakes, cakes and cakes. Here we
               encourage cake lovers to nominate their traditional dessert. The owners will receive a free copy of the
-              illustrated recipe ebook ( ,,, + IRL apron ?)
+              illustrated recipe ebook.
             </dd>
           </div>
-        </dl>
-      </div>
 
-      <div class="mt-10 mx-10">
-        <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
           <div
             class="relative opacity-0"
-            data-st-class="animate__animated animate__fadeIn animate__delay-4s animate__faster"
+            data-st-class="animate__animated animate__fadeIn animate__delay-5s animate__faster"
           >
             <dt>
               <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
@@ -76,18 +71,6 @@
               (1000 generative wedding cakes) What is a better gift than to celebrate the marriage with a unique wedding
               cake baked on blockchain.
             </dd>
-          </div>
-          <div
-            class="relative opacity-0"
-            data-st-class="animate__animated animate__fadeIn animate__delay-4s animate__faster"
-          >
-            <dt>
-              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-rose-500 text-white">
-                <outline-users-icon class="w-7 h-7" />
-              </div>
-              <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Collabs with our friends</p>
-            </dt>
-            <dd class="mt-2 ml-16 text-base text-gray-500">Lorem ipsum</dd>
           </div>
         </dl>
       </div>

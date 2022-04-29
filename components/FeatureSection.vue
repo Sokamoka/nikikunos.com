@@ -23,7 +23,7 @@
             <outline-cake-icon class="w-7 h-7" />
           </div>
           <h3 class="text-xl md:text-2xl leading-tight font-bold">MY MISSION</h3>
-          <h4 class="text-lg mb-3">“lets celebrate with cake!“</h4>
+          <h4 class="text-lg mb-3">“Lets celebrate with cake!“</h4>
           <p class="text-gray-500">
             Make each moment feel *special* with cake. Celebrate your little and big wins and remember how beautiful it
             is to love and be loved. Enjoy your life and smile!

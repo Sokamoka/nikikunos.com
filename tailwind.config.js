@@ -13,6 +13,9 @@ module.exports = {
         'roadmap-pattern': "url('../img/pattern-wave.svg')",
         wave: "url('../img/wave.svg')",
       },
+      aspectRatio: {
+        '4/3': '4 / 3',
+      },
       animation: {
         'fade-in-left': 'twFadeInLeft 0.5s ease-in-out forwards',
         'fade-in-right': 'twFadeInRight 0.5s ease-in-out both',

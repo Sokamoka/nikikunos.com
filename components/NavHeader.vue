@@ -8,7 +8,7 @@
     ]"
   >
     <div class="max-w-7xl mx-auto py-5 px-10 w-full flex flex-col sm:flex-row sm:items-center">
-      <a href="#" class="flex-1 font-bold text-xl">NikiKunos.com</a>
+      <a href="#" class="flex-1 font-bold text-xl hover:no-underline">NikiKunos.com</a>
       <div
         v-if="isMenuVisible"
         class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-5 sm:bg-transparent -mx-10 sm:mx-0 pt-5 sm:pt-0 px-10 sm:px-0"
