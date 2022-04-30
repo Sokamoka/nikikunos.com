@@ -9,6 +9,11 @@ export default {
     port: 3030, // default: 3000
   },
 
+  env: {
+    GA_MEASUREMENT_ID: process.env.GA_MEASUREMENT_ID,
+    GA_MEASUREMENT_ENABLED: process.env.GA_MEASUREMENT_ENABLED,
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nikikunos.com',

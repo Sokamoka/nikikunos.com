@@ -25,7 +25,7 @@
           >
           and I was finalist <strong>“Decorator of the Year!”</strong> on
           <strong>Australian Cake Decorating Network</strong> (2014) but most importantly, I have been able to feed over
-          10,000 happy people with sweet bits.
+          10,000 happy people with my creations.
         </p>
         <p
           class="px-10 mt-3 text-base text-gray-500 sm:text-lg md:text-lg opacity-0"
