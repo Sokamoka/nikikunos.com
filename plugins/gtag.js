@@ -5,14 +5,15 @@ export default ({ app }) => {
   const getGDPR = 'true'
   // const getGDPR = localStorage.getItem('GDPR:accepted')
   const isGDPRAccepted = getGDPR === 'true'
+  const isEnabled = app.context.env.GA_MEASUREMENT_ENABLED === 'true' ? isGDPRAccepted : false
 
   Vue.use(
     VueGtag,
     {
       config: { id: app.context.env.GA_MEASUREMENT_ID },
-      bootstrap: isGDPRAccepted,
+      bootstrap: isEnabled,
       appName: 'NikiKunos.com',
-      enabled: app.context.env.GA_MEASUREMENT_ENABLED === 'true' ? true : isGDPRAccepted,
+      enabled: isEnabled,
       pageTrackerScreenviewEnabled: true,
     },
     app.router
