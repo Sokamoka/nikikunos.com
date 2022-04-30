@@ -10,7 +10,7 @@ export default ({ app }) => {
     {
       config: { id: 'G-MRYC8XT16Y' },
       bootstrap: getGDPR === 'true',
-      appName: 'APP_NAME',
+      appName: 'NikiKunos.com',
       enabled: getGDPR === 'true',
       pageTrackerScreenviewEnabled: true,
     },
