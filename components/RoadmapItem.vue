@@ -166,14 +166,10 @@
     <section class="bg-rose-50" data-st-container="information" data-st-offset="120">
       <div class="max-w-7xl mx-auto mt-5 text-center flex flex-col items-center pt-8">
         <p
-          class="pb-10 px-10 text-base text-rose-400 sm:text-base md:text-lg md:w-4/5 opacity-0"
+          class="px-10 text-base text-rose-400 sm:text-base md:text-lg md:w-4/5 opacity-0"
           data-st-class="animate__animated animate__fadeIn"
-        >
-          Early ownership gives you exclusive access to the Founding Members Club. Our founding members enjoy benefits
-          like airdrops, pre-mint tickets to our limited PFPs, and right to vote supporting upcoming women-led projects
-          of x % of the profits from the following <strong>"I carried a cake”</strong> PFP collection. <br />Next
-          minting when “say it with cake“ x % sold.
-        </p>
+          v-html="$t('roadMap.membersClub')"
+        />
       </div>
     </section>
 

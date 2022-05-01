@@ -24,6 +24,7 @@ export default async ({ $md }) => {
         title: '"Say it with cake"',
         content: Content.SayItWithCake,
       },
+      membersClub: Content.MembersClub,
     },
   })
 }
