@@ -16,14 +16,19 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nikikunos.com',
+    title: 'NikiKunos.com',
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Cake Club NFT. Our community is built by cake lovers from all over the world, people that rejoice in the joy that comes with sharing delicious cakes with their family and friends.',
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -43,6 +48,7 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxt/image',
     '@nuxt/postcss8',
+    '@nuxtjs/markdownit',
     '@nuxtjs/google-fonts',
     '@nuxtjs/eslint-module',
     '@nuxt-hero-icons/outline/nuxt',
@@ -72,5 +78,11 @@ export default {
     cloudinary: {
       baseURL: process.env.CLOUDINARY_BASE_URL,
     },
+  },
+
+  markdownit: {
+    preset: 'default',
+    linkify: true,
+    breaks: true,
   },
 }

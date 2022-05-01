@@ -5,9 +5,9 @@
         <div class="w-full md:w-1/2 mb-5 opacity-0" data-st-class="animate-fade-in-left">
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
           <h1 class="px-10 text-3xl font-bold">“Lets celebrate with cake”</h1>
-          <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
-            “Lets celebrate with cake” (1/1 PFP): includes only custom made cakes from any “Cake Club Collection". (only
-            150 pieces) Sending a print to the owners.
+          <!-- eslint-disable vue/no-v-html -->
+          <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg" v-html="labels.LetsCelebrate">
+            <!-- <eslint-enable>-->
           </p>
         </div>
         <div class="w-full md:w-1/2 overflow-hidden">
@@ -100,7 +100,7 @@
         <div class="w-full md:w-1/2 mb-5 opacity-0" data-st-class="animate-fade-in-right">
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
           <h1 class="px-10 text-3xl font-bold">“Say it with cake“</h1>
-          <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg">
+          <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg"  v-html="labels.SayItWithCake">
             (3000 generative pieces) Create your own cake collection and feed your soul with cakes everyday, you can
             give the cake as a special gift.
           </p>
@@ -364,3 +364,19 @@
     </section>
   </div>
 </template>
+
+<script>
+import LetsCelebrate from '../contents/lets-celebrate.md'
+import SayItWithCake from '../contents/say-it-with cake.md'
+
+export default {
+  computed: {
+    labels() {
+      return {
+        LetsCelebrate,
+        SayItWithCake,
+      }
+    },
+  },
+}
+</script>
