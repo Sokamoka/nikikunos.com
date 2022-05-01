@@ -56,7 +56,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['@nuxtjs/i18n'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
@@ -84,5 +84,18 @@ export default {
     preset: 'default',
     linkify: true,
     breaks: true,
+  },
+
+  i18n: {
+    locales: [
+      {
+        code: 'en',
+        name: 'English',
+        file: 'en-US.js',
+      },
+    ],
+    lazy: true,
+    langDir: 'lang/',
+    defaultLocale: 'en',
   },
 }
