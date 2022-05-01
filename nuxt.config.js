@@ -48,7 +48,6 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxt/image',
     '@nuxt/postcss8',
-    '@nuxtjs/markdownit',
     '@nuxtjs/google-fonts',
     '@nuxtjs/eslint-module',
     '@nuxt-hero-icons/outline/nuxt',
@@ -56,7 +55,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/i18n'],
+  modules: ['@nuxtjs/i18n', '@nuxtjs/markdownit'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
