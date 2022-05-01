@@ -40,7 +40,8 @@
           <p class="text-gray-500">
             At Cake Club NFT we support women-led projects and amazing charity organizations . Check out the deets of
             the women-led projects we support: “I carried a cake” and which charity organizations we hold dearly in our
-            hearts in “Make a wish.”
+            hearts in “Make a wish”. Owning an “Lets celebrate with cake” means like icing the cake with all the basic
+            and surprise utilities with extra sprinkles.
           </p>
         </div>
       </div>
