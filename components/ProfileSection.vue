@@ -1,8 +1,10 @@
 <template>
+  <!-- eslint-disable vue/no-v-html -->
   <section id="about" class="py-16 scroll-mt-14" data-st-container="profile">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row">
       <div class="w-full md:w-2/3 py-5">
         <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
+        <div class="px-10" v-html="$t('profile.content')"></div>
         <h1 class="px-10 text-3xl font-bold opacity-0" data-st-class="animate-fade-in-left">About me</h1>
         <p
           class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg opacity-0"

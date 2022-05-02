@@ -15,6 +15,10 @@
   a {
     @apply hover:underline font-bold text-rose-600;
   }
+
+  h2 {
+    @apply mb-5 text-3xl font-bold;
+  }
 }
 
 @layer components {

@@ -11,11 +11,23 @@ export default async ({ $md }) => {
       contact: 'Contact',
     },
     hero: {
-      title: $md.render('Welcome to the **CAKE CLUB NFT 🎂** '),
+      title: $md.render('Welcome to the **CAKE CLUB NFT 🎂**'),
       subtitle: $md.render(`Can you imagine any celebration without a cake?
         If not, you're in the right place.`),
       description: Content.HeroDescription,
       buttonText: 'Taste your Cake',
+    },
+    profile: {
+      content2: $md.render(Content.Profile),
+      content: $md.render(`## About me {data-st-class=animate-fade-in-left}
+My name is **Niki S. Kunos** and I am a cake decorator in IRL. In the last 10 years my cakes proud to be featured on [Huffington Post Wedding](https://www.huffpost.com/entry/geode-wedding-cakes-totally-rock_n_5780054ae4b0c590f7e95d76), Ruffled Blog, The Modern Wedding Magazine (20th-anniversary edition), Insyle Magazine, Glamour Mag and I was finalist “Decorator of the Year!” on Australian Cake Decorating Network (2014) but most importantly, I have been able to feed over 10,000 happy people with my creations.{data-st-class="animate__animated animate__fadeInUp animate__delay-1s animate__faster"}
+
+Here in WEB3, it is amazing that i could combine cake decorating with my other passion, illustration. {data-st-class="animate__animated animate__fadeInUp animate__delay-2s animate__faster"}
+
+**Niki S. Kunos** {.mb-0 data-st-class="animate__animated animate__fadeInUp animate__delay-3s animate__faster" }
+
+Artist/Founder {data-st-class="animate__animated animate__fadeInUp animate__delay-4s animate__faster"}
+      `),
     },
     features: {
       value: {

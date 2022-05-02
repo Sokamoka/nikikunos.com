@@ -81,8 +81,22 @@ export default {
 
   markdownit: {
     preset: 'default',
+    html: true,
     linkify: true,
     breaks: true,
+    runtime: true,
+    use: [
+      'markdown-it-attrs',
+      [
+        'markdown-it-link-attributes',
+        {
+          attrs: {
+            target: '_blank',
+            rel: 'noopener',
+          },
+        },
+      ],
+    ],
   },
 
   i18n: {

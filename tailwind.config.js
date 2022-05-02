@@ -6,7 +6,7 @@ module.exports = {
     './plugins/**/*.{js,vue,ts,}',
     './nuxt.config.{js,ts}',
   ],
-  safelist: ['animate-fade-in-left', 'animate-fade-in-right'],
+  safelist: ['animate-fade-in-left', 'animate-fade-in-right', 'mb-0'],
   theme: {
     extend: {
       backgroundImage: {
