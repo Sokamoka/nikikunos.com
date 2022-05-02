@@ -2,7 +2,7 @@
   <!-- eslint-disable vue/no-v-html -->
   <section id="features" class="px-10 py-16 mx-auto scroll-mt-16" data-st-container="features">
     <div class="h-1 bg-rose-500 w-48 mb-10 mx-auto"></div>
-    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row sm:space-x-4">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row sm:space-x-8">
       <div class="w-full md:w-1/3 opacity-0" data-st-class="animate__animated animate__fadeIn">
         <div class="h-full p-8 text-center hover:bg-white rounded-md shadow-xl transition duration-200">
           <div class="inline-flex h-16 w-16 mb-7 mx-auto items-center justify-center text-white bg-rose-500 rounded-lg">

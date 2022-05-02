@@ -20,7 +20,7 @@ export default async ({ $md }) => {
     profile: {
       content2: $md.render(Content.Profile),
       content: $md.render(`## About me {data-st-class=animate-fade-in-left}
-My name is **Niki S. Kunos** and I am a cake decorator in IRL. In the last 10 years my cakes proud to be featured on [Huffington Post Wedding](https://www.huffpost.com/entry/geode-wedding-cakes-totally-rock_n_5780054ae4b0c590f7e95d76), Ruffled Blog, The Modern Wedding Magazine (20th-anniversary edition), Insyle Magazine, Glamour Mag and I was finalist “Decorator of the Year!” on Australian Cake Decorating Network (2014) but most importantly, I have been able to feed over 10,000 happy people with my creations.{data-st-class="animate__animated animate__fadeInUp animate__delay-1s animate__faster"}
+My name is **Niki S. Kunos** and I am a cake decorator in IRL. In the last 10 years my cakes proud to be featured on [Huffington Post Wedding](https://www.huffpost.com/entry/geode-wedding-cakes-totally-rock_n_5780054ae4b0c590f7e95d76), [Ruffled Blog](https://ruffledblog.com/hungarian-chapel-elopement-editorial/), [The Modern Wedding Magazine (20th-anniversary edition)](https://www.modernwedding.com.au/modern-wedding-cakes-styling-20th-anniversary-edition/), **Insyle Magazine**, [Glamour Mag](https://www.glamour.hu/g-eletstilus/meztelen-tortak-eheto-arannyal/k55n9nv) and I was finalist **“Decorator of the Year!”** on **Australian Cake Decorating Network** (2014) but most importantly, I have been able to feed over 10,000 happy people with my creations.{data-st-class="animate__animated animate__fadeInUp animate__delay-1s animate__faster"}
 
 Here in WEB3, it is amazing that i could combine cake decorating with my other passion, illustration. {data-st-class="animate__animated animate__fadeInUp animate__delay-2s animate__faster"}
 
@@ -33,18 +33,16 @@ Artist/Founder {data-st-class="animate__animated animate__fadeInUp animate__dela
       value: {
         title: 'Value',
         subtitle: 'Treat yourself with a cake',
-        description:
-          $md.render(`We all have many fond memories of birthday cakes. Your grandmother baked you a sweet treat, your parents and
-        friends sent you a customized masterpiece, your partner surprised you with your all time fav cake or playing
-        in the kitchen and eating fondue with your family and children! These cakes always bring joy to a family's
-        table. We would like to bring this **“everyday is a birthday spirit”** vibe to web3.`),
+        description: $md.render(
+          `We all have many fond memories of birthday cakes. Your grandmother baked you a sweet treat, your parents and friends sent you a customized masterpiece, your partner surprised you with your all time fav cake or playing in the kitchen and eating fondue with your family and children! These cakes always bring joy to a family's table. We would like to bring this **“everyday is a birthday spirit”** vibe to web3.`
+        ),
       },
       mission: {
         title: 'MY MISSION',
         subtitle: '“Lets celebrate with cake!“',
-        description:
-          $md.render(`Make each moment feel *special* with cake. Celebrate your little and big wins and remember how beautiful it
-        is to love and be loved. Enjoy your life and smile!`),
+        description: $md.render(
+          `Make each moment feel *special* with cake. Celebrate your little and big wins and remember how beautiful it is to love and be loved. Enjoy your life and smile!`
+        ),
       },
       utility: {
         title: 'Utility',

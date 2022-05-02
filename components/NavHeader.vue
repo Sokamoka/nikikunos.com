@@ -40,7 +40,7 @@ export default {
   data() {
     return {
       isOnScroll: false,
-      isMenuVisible: false,
+      isMenuVisible: true,
       isSmallScreen: false,
     }
   },
@@ -67,7 +67,7 @@ export default {
     mql.onchange = (e) => {
       match(e.matches)
     }
-    match(mql)
+    match(mql.matches)
   },
 
   methods: {
