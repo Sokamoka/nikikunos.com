@@ -1,0 +1,1 @@
+Our community is built by cake lovers from all over the world, people that rejoice in the joy that comes with sharing delicious cakes with their family and friends. Cakes and sprinkles make the world a colorful and sweeter place.

@@ -10,14 +10,22 @@ export default async ({ $md }) => {
       upcomming: 'Upcomming',
       contact: 'Contact',
     },
+    hero: {
+      title: $md.render('Welcome to the **CAKE CLUB NFT 🎂** '),
+      subtitle: $md.render(`Can you imagine any celebration without a cake?
+        If not, you're in the right place.`),
+      description: Content.HeroDescription,
+      buttonText: 'Taste your Cake',
+    },
     features: {
       value: {
         title: 'Value',
         subtitle: 'Treat yourself with a cake',
-        description: `We all have many fond memories of birthday cakes. Your grandmother baked you a sweet treat, your parents and
+        description:
+          $md.render(`We all have many fond memories of birthday cakes. Your grandmother baked you a sweet treat, your parents and
         friends sent you a customized masterpiece, your partner surprised you with your all time fav cake or playing
-        in the kitchen and eating fondue with your family and children! These cakes always bring joy to a family’s
-        table. We would like to bring this “everyday is a birthday spirit” vibe to web3.`,
+        in the kitchen and eating fondue with your family and children! These cakes always bring joy to a family's
+        table. We would like to bring this **“everyday is a birthday spirit”** vibe to web3.`),
       },
       mission: {
         title: 'MY MISSION',
