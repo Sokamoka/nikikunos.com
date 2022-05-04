@@ -13,18 +13,18 @@
         v-if="isMenuVisible"
         class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-5 sm:bg-transparent -mx-10 sm:mx-0 pt-5 sm:pt-0 px-10 sm:px-0"
       >
-        <a href="#" class="button is-header" data-st-spy="hero">Home</a>
-        <a href="#about" class="button is-header" data-st-spy="profile">About</a>
-        <a href="#features" class="button is-header" data-st-spy="features">Features</a>
+        <a href="#" class="button is-header" data-st-spy="hero">{{ $t('menu.home') }}</a>
+        <a href="#about" class="button is-header" data-st-spy="profile">{{ $t('menu.about') }}</a>
+        <a href="#features" class="button is-header" data-st-spy="features">{{ $t('menu.features') }}</a>
         <a
           href="#roadmap"
           class="button is-header"
           data-st-spy="roadmap lets-celebrate say-it-with-cake information wish carried"
         >
-          Road Map
+          {{ $t('menu.roadmap') }}
         </a>
-        <a href="#upcoming" class="button is-header" data-st-spy="upcoming">Upcomming</a>
-        <a href="#contact" class="button is-header" data-st-spy="contact">Contact</a>
+        <a href="#upcoming" class="button is-header" data-st-spy="upcoming">{{ $t('menu.upcomming') }}</a>
+        <a href="#contact" class="button is-header" data-st-spy="contact">{{ $t('menu.contact') }}</a>
       </div>
       <button type="button" class="sm:hidden absolute right-3 top-5" @click="toggleMenu">
         <outline-menu-icon class="w-5 h-5" />
@@ -67,6 +67,7 @@ export default {
     mql.onchange = (e) => {
       match(e.matches)
     }
+    match(mql.matches)
   },
 
   methods: {

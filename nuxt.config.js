@@ -48,7 +48,6 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxt/image',
     '@nuxt/postcss8',
-    '@nuxtjs/markdownit',
     '@nuxtjs/google-fonts',
     '@nuxtjs/eslint-module',
     '@nuxt-hero-icons/outline/nuxt',
@@ -56,7 +55,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['@nuxtjs/i18n', '@nuxtjs/markdownit'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
@@ -82,7 +81,34 @@ export default {
 
   markdownit: {
     preset: 'default',
+    html: true,
     linkify: true,
     breaks: true,
+    runtime: true,
+    use: [
+      'markdown-it-attrs',
+      [
+        'markdown-it-link-attributes',
+        {
+          attrs: {
+            target: '_blank',
+            rel: 'noopener',
+          },
+        },
+      ],
+    ],
+  },
+
+  i18n: {
+    locales: [
+      {
+        code: 'en',
+        name: 'English',
+        file: 'en-US.js',
+      },
+    ],
+    lazy: true,
+    langDir: 'lang/',
+    defaultLocale: 'en',
   },
 }

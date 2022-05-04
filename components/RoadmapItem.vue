@@ -4,9 +4,12 @@
       <div class="flex flex-col md:flex-row max-w-7xl mx-auto">
         <div class="w-full md:w-1/2 mb-5 opacity-0" data-st-class="animate-fade-in-left">
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
-          <h1 class="px-10 text-3xl font-bold">“Lets celebrate with cake”</h1>
+          <h1 class="px-10 text-3xl font-bold">{{ $t('roadMap.letsCelebrate.title') }}</h1>
           <!-- eslint-disable vue/no-v-html -->
-          <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg" v-html="labels.LetsCelebrate">
+          <p
+            class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg"
+            v-html="$t('roadMap.letsCelebrate.content')"
+          >
             <!-- <eslint-enable>-->
           </p>
         </div>
@@ -99,11 +102,11 @@
       <div class="flex flex-col md:flex-row-reverse max-w-7xl mx-auto">
         <div class="w-full md:w-1/2 mb-5 opacity-0" data-st-class="animate-fade-in-right">
           <div class="h-1 bg-rose-500 w-48 mb-8 mx-10"></div>
-          <h1 class="px-10 text-3xl font-bold">“Say it with cake“</h1>
-          <p class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg"  v-html="labels.SayItWithCake">
-            (3000 generative pieces) Create your own cake collection and feed your soul with cakes everyday, you can
-            give the cake as a special gift.
-          </p>
+          <h1 class="px-10 text-3xl font-bold">{{ $t('roadMap.sayItWithCake.title') }}</h1>
+          <p
+            class="px-10 mt-5 text-base text-gray-500 sm:text-lg md:text-lg"
+            v-html="$t('roadMap.sayItWithCake.content')"
+          ></p>
         </div>
         <div class="w-full md:w-1/2 opacity-0" data-st-class="animate-fade-in-left">
           <GalleryWrapper class="grid grid-cols-2 sm:grid-cols-3 grid-rows-1 gap-2">
@@ -163,14 +166,10 @@
     <section class="bg-rose-50" data-st-container="information" data-st-offset="120">
       <div class="max-w-7xl mx-auto mt-5 text-center flex flex-col items-center pt-8">
         <p
-          class="pb-10 px-10 text-base text-rose-400 sm:text-base md:text-lg md:w-4/5 opacity-0"
+          class="px-10 text-base text-rose-400 sm:text-base md:text-lg md:w-4/5 opacity-0"
           data-st-class="animate__animated animate__fadeIn"
-        >
-          Early ownership gives you exclusive access to the Founding Members Club. Our founding members enjoy benefits
-          like airdrops, pre-mint tickets to our limited PFPs, and right to vote supporting upcoming women-led projects
-          of x % of the profits from the following <strong>"I carried a cake”</strong> PFP collection. <br />Next
-          minting when “say it with cake“ x % sold.
-        </p>
+          v-html="$t('roadMap.membersClub')"
+        />
       </div>
     </section>
 
@@ -364,19 +363,3 @@
     </section>
   </div>
 </template>
-
-<script>
-import LetsCelebrate from '../contents/lets-celebrate.md'
-import SayItWithCake from '../contents/say-it-with cake.md'
-
-export default {
-  computed: {
-    labels() {
-      return {
-        LetsCelebrate,
-        SayItWithCake,
-      }
-    },
-  },
-}
-</script>
