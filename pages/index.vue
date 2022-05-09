@@ -9,16 +9,16 @@
     <UpcomingSection />
     <ContactUs />
     <FooterSection />
+    <CookieConsent />
   </main>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
-
-  mounted() {
-    this.$scrollTap({ offset: 160, margin: 70 })
-  },
+    name: "IndexPage",
+    mounted() {
+        this.$scrollTap({ offset: 160, margin: 70 });
+    },
 }
 </script>
 

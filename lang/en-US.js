@@ -68,5 +68,11 @@ Artist/Founder {data-st-class="animate__animated animate__fadeInUp animate__dela
       },
       membersClub: Content.MembersClub,
     },
+    cookieConsent: {
+      tos: 'the privacy policy',
+      term: 'Read {0} for more information.',
+      buttonAccept: 'Accept',
+      buttonDeny: 'Deny',
+    },
   })
 }
