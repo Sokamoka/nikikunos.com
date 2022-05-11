@@ -1,11 +1,12 @@
 <template>
   <main>
-    <NavHeader />
+    <NavHeaderHug />
     <HeroSection />
     <ProfileSection />
     <FeatureSection />
     <RoadmapTitle />
-    <RoadmapItemIndex />
+    <RoadmapItem />
+    <UpcomingSection />
     <ContactUs />
     <FooterSection />
   </main>

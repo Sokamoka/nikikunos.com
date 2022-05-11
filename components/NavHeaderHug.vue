@@ -23,6 +23,7 @@
         >
           {{ $t('menu.roadmap') }}
         </a>
+        <a href="#upcoming" class="button is-header" data-st-spy="upcoming">{{ $t('menu.upcomming') }}</a>
         <a href="#contact" class="button is-header" data-st-spy="contact">{{ $t('menu.contact') }}</a>
       </div>
       <button type="button" class="sm:hidden absolute right-3 top-5" @click="toggleMenu">

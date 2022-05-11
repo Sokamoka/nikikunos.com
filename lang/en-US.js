@@ -7,7 +7,7 @@ export default async ({ $md }) => {
       about: 'About',
       features: 'Features',
       roadmap: 'Road Map',
-      upcomming: 'Upcomming',
+      upcomming: 'Upcoming',
       contact: 'Contact',
     },
     hero: {
@@ -48,7 +48,9 @@ Artist/Founder {data-st-class="animate__animated animate__fadeInUp animate__dela
         title: 'Utility',
         subtitle: '"Sharing is caring" so, sharing a cake is double caring, right?',
         description: $md.render(
-          `At **Cake Club NFT** we support women-led projects and amazing charity organizations . Check out the deets of the women-led projects we support: *“I carried a cake”* and which charity organizations we hold dearly in our hearts in *“Make a wish”*. Owning an *“Lets celebrate with cake”* means like icing the cake with all the basic and surprise utilities with extra sprinkles.`
+          `At **Cake Club NFT** we are planning to support women-led projects and amazing charity organizations .
+          Owning a piece of the “Lets celebrate with cake” collection means like icing the cake with all the basic and surprise utilities with extra sprinkles.
+          `
         ),
       },
     },
