@@ -97,6 +97,73 @@
           <p class="text-xs text-gray-400 text-right px-2">Inspired by Crypto Coven</p>
         </GalleryItem>
       </div>
+      <div class="grid grid-cols-3 md:grid-cols-6 gap-2 max-w-7xl mx-auto overflow-hidden">
+        <GalleryItem
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1652514423/celebrate/randi.letsceleb_mnz0ma.jpg"
+          alt="Randi"
+          data-st-class="animate__animated animate__zoomIn animate__delay-5s animate__faster"
+        >
+          <div class="gallery-thumb">
+            <nuxt-img provider="cloudinary" src="/celebrate/randi.letsceleb_mnz0ma.jpg" width="215" loading="lazy" />
+          </div>
+          <p class="text-xs text-gray-400 text-right px-2">Randi</p>
+        </GalleryItem>
+
+        <GalleryItem
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1652514423/celebrate/riji.letsceleb_yzpmfb.jpg"
+          alt="Riji"
+          data-st-class="animate__animated animate__zoomIn animate__delay-5s animate__faster"
+        >
+          <div class="gallery-thumb">
+            <nuxt-img provider="cloudinary" src="/celebrate/riji.letsceleb_yzpmfb.jpg" width="215" loading="lazy" />
+          </div>
+          <p class="text-xs text-gray-400 text-right px-2">Riji</p>
+        </GalleryItem>
+
+        <GalleryItem
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1652514423/celebrate/cryptokalisian.letsceleb_ka3nwx.jpg"
+          alt="Crypto Kalikasan"
+          data-st-class="animate__animated animate__zoomIn animate__delay-5s animate__faster"
+        >
+          <div class="gallery-thumb">
+            <nuxt-img provider="cloudinary" src="/celebrate/cryptokalisian.letsceleb_ka3nwx.jpg" width="215" loading="lazy" />
+          </div>
+          <p class="text-xs text-gray-400 text-right px-2">Crypto Kalikasan</p>
+        </GalleryItem>
+
+        <GalleryItem
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1652514423/celebrate/sylvo.carried_hktjza.jpg"
+          alt="Sylvo"
+          data-st-class="animate__animated animate__zoomIn animate__delay-5s animate__faster"
+        >
+          <div class="gallery-thumb">
+            <nuxt-img provider="cloudinary" src="/celebrate/sylvo.carried_hktjza.jpg" width="215" loading="lazy" />
+          </div>
+          <p class="text-xs text-gray-400 text-right px-2">Sylvo</p>
+        </GalleryItem>
+
+        <GalleryItem
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1652514423/celebrate/smartly.carried_thok2k.jpg"
+          alt="Smartly Creative"
+          data-st-class="animate__animated animate__zoomIn animate__delay-5s animate__faster"
+        >
+          <div class="gallery-thumb">
+            <nuxt-img provider="cloudinary" src="/celebrate/smartly.carried_thok2k.jpg" width="215" loading="lazy" />
+          </div>
+          <p class="text-xs text-gray-400 text-right px-2">Smartly Creative</p>
+        </GalleryItem>
+
+        <GalleryItem
+          src="https://res.cloudinary.com/dmnwv4n97/image/upload/v1652515156/celebrate/lisa.letsceleb_hb912j.jpg"
+          alt="Lisa"
+          data-st-class="animate__animated animate__zoomIn animate__delay-5s animate__faster"
+        >
+          <div class="gallery-thumb">
+            <nuxt-img provider="cloudinary" src="/celebrate/lisa.letsceleb_hb912j.jpg" width="215" loading="lazy" />
+          </div>
+          <p class="text-xs text-gray-400 text-right px-2">Lisa</p>
+        </GalleryItem>
+      </div>
     </GalleryWrapper>
   </div>
 </template>
